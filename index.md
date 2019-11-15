@@ -28,8 +28,8 @@
 * Topic: Time Series Similarity Search
     * **March 16**: Distance Measures
         * [Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping](keogh_trillion.pdf)
-    * **March 23**:
-        * No class - Spring Break
+    * **March 23**: Spring break
+        * Spring reading: [The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances](./papers/great_ts_bakeoff.pdf)
     * **March 30**: Representation
         * [iSAX: Indexing and Mining Terabyte Sized Time Series](./papers/iSAX.pdf) 
         * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets](./papers/sfa.pdf) 
