@@ -1,7 +1,28 @@
-## Links
-[papers](./papers/papers.md)
+# Everything is a Time Series
 
-## Time Series are EVERYWHERE
+## What this class is about
+Yes. Just as it's all just bits and bytes, it's all just time series also. This
+class will be about modern Time Series Management Systems (TSMS) and the
+current research around this area. It will focus on three topics that give you
+an overview of the landscape:
+
+1. Time Series Storage: We'll read about storage engines used in industry and
+   and proposed in academia. The fundamental problems of time series storage:
+   how to store so much data, how long to store the data, and how much of the
+   data store? We'll learn about how different storage engines address the
+   problem and compare their approaches, benefits, and drawbacks.
+
+2. Time Series Similarity Search: Given some short time series, can we find the
+   most similar segment(s) of a larger time series? We'll take a look at the
+   algorithms and data structures that allow us to ask these questions. We'll
+   identify different approaches to this problem and critique the current state
+   of the art.
+
+3. Streams and Modern Hardware: Before a time series is a time series, it's
+   first a stream. Streams run the internet, your GPS device, and your bank
+   account. We'll learn how industry deals with massive streams in their
+   distributed infrastructure. We'll also contrast the current state of the art
+   with what could be given considerations of modern hardware.
 
 ## Schedule
 
@@ -9,8 +30,8 @@
 
 * **February 03**:
     * Introductions to the class
-    * [Video](https://bit.ly/33UrRHy) 
-    * [InfluxDB's sell on TSDBs](https://bit.ly/33SpdlR) 
+    * [Video][1]
+    * [InfluxDB's sell on TSDBs][2]
 
 ### Topic: Time Series Data and Storage
 
@@ -25,7 +46,7 @@
 * **March 02**: Storage in papers
     * [Gorilla: A Fast, Scalable, In-Memory Time Series Database](./papers/gorilla.pdf) 
 * **March 09**: Storage in papers 2
-    * [BTrDB: Optimizing Storage System Design for Timeseries Processing](./papers/btrdb.pdf) 
+    * [BTrDB: Optimizing Storage System Design for Time Series Processing](./papers/btrdb.pdf) 
 
 ### Topic: Time Series Similarity Search
 
@@ -56,4 +77,27 @@
     * Project Presentations
 * **April 04**:
     * Project Presentations
+
+## Links
+
+[1]: https://bit.ly/33UrRHy  
+[2]: https://bit.ly/33SpdlR  
+[3]: https://bit.ly/2QtsEM1 
+[4]: https://bit.ly/32U9dOF 
+[5]: https://bit.ly/372pxjM 
+[6]: https://bit.ly/2NPRDXP 
+[7]: ./papers/gorilla.pdf  
+[8]: ./papers/btrdb.pdf  
+[9]: ./papers/keogh_trillion.pdf 
+[10]: ./papers/iSAX.pdf  
+[11]: ./papers/sfa.pdf  
+[12]: ./papers/coconut.pdf  
+[13]: ./papers/weasel_muse.pdf  
+[14]: ./papers/Kafka.pdf  
+[15]: ./papers/samza.pdf  
+[16]: ./papers/efficient_streams_on_modern_hardware.pdf 
+[17]: ./papers/mmdb_vs_streams.pdf  
+[18]: ./papers/modelar.pdf  
+[19]: ./papers/waterwheel.pdf  
+
 
