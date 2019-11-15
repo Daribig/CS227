@@ -3,9 +3,14 @@
 
 ## Schedule
 
-| Date          | Paper Link    |
-| ------------- |:-------------:|
-| February 3    |  [paper](./papers/TileDB.pdf) |
-| February 3    |  [paper](./papers/TileDB.pdf) |
-| February 3    |  [paper](./papers/TileDB.pdf) |
+* Topic: TimeSeries Storage
+    * **February 3**:
+        * [TileDB](./papers/TileDB.pdf) 
+        * [TileDB](./papers/TileDB.pdf) 
+    * **Febuary 10**:
+        * [TileDB](./papers/TileDB.pdf) 
+        * [TileDB](./papers/TileDB.pdf) 
+    * **Febuary 17**:
+        * [TileDB](./papers/TileDB.pdf) 
+        * [TileDB](./papers/TileDB.pdf) 
 
