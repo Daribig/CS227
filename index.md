@@ -42,9 +42,10 @@
     * **April 20**: Modern Hardware
         * [Analyzing Efficient Stream Processing on Modern Hardware](./papers/efficient_streams_on_modern_hardware.pdf)
         * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems](./papers/mmdb_vs_streams.pdf) 
-    * **April 27**: Massive Time Series Management Systems
+    * **April 27**: Flex spot: Massive Time Series Management Systems
         * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra](./papers/modelar.pdf) 
         * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams](./papers/waterwheel.pdf) 
+        * Project Presentations
     * **April 04**:
         * Project Presentations
 
