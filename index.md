@@ -30,50 +30,50 @@ an overview of the landscape:
 
 * **February 03**:
     * Introductions to the class
-    * [Video][1]
+    * [Goku: Pinterest’s in-house time-series database (Video)][1]
     * [InfluxDB's sell on TSDBs][2]
 
 ### Topic: Time Series Data and Storage
 
 * **Febuary 10**: Storage in the wild
-    * [Prometheus Storage Overview](https://bit.ly/2QtsEM1)
-    * [Prometheus Storage Details](https://bit.ly/32U9dOF)
+    * [Prometheus Storage Overview][3]
+    * [Prometheus Storage Details][4]
 * **Febuary 17**:
     * No class - President's Day
 * **February 24**: Storage in the wild
-    * [IndluxDB Storage](https://bit.ly/372pxjM)
-    * [OpenTSDB Storage](https://bit.ly/2NPRDXP)
+    * [IndluxDB Storage][5]
+    * [OpenTSDB Storage][6]
 * **March 02**: Storage in papers
-    * [Gorilla: A Fast, Scalable, In-Memory Time Series Database](./papers/gorilla.pdf) 
+    * [Gorilla: A Fast, Scalable, In-Memory Time Series Database][7]
 * **March 09**: Storage in papers 2
-    * [BTrDB: Optimizing Storage System Design for Time Series Processing](./papers/btrdb.pdf) 
+    * [BTrDB: Optimizing Storage System Design for Time Series Processing][8]
 
 ### Topic: Time Series Similarity Search
 
 * **March 16**: Distance Measures
-    * [Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping](keogh_trillion.pdf)
+    * [Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping][9]
 * **March 23**: Spring break (helpful reads)
-    * [iSAX: Indexing and Mining Terabyte Sized Time Series](./papers/iSAX.pdf) 
-    * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets](./papers/sfa.pdf) 
+    * [iSAX: Indexing and Mining Terabyte Sized Time Series][10]
+    * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets][11]
 * **March 30**: Representation
-    * [Coconut: A Scalable Bottom-Up Approach for Building Data Series Indexes](./papers/coconut.pdf) 
+    * [Coconut: A Scalable Bottom-Up Approach for Building Data Series Indexes][12]
 * **April 06**: Clustering
-    * [Multivariate Time Series Classification with WEASEL+MUSE](./papers/weasel_muse.pdf) 
+    * [Multivariate Time Series Classification with WEASEL+MUSE][13]
 
 ### Topic: Massive Time Series
 
 * **April 13**: Massive Streams
-    * [Kafka: a Distributed Messaging System for Log Processing](./papers/Kafka.pdf) 
-    * [Samza: Stateful Scalable Stream Processing at LinkedIn](./papers/samza.pdf) 
+    * [Kafka: a Distributed Messaging System for Log Processing][14]
+    * [Samza: Stateful Scalable Stream Processing at LinkedIn][15]
 * **April 20**: Modern Hardware
-    * [Analyzing Efficient Stream Processing on Modern Hardware](./papers/efficient_streams_on_modern_hardware.pdf)
-    * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems](./papers/mmdb_vs_streams.pdf) 
+    * [Analyzing Efficient Stream Processing on Modern Hardware][15]
+    * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems][17]
 
 ### Projects Presentations
 
 * **April 27**: Flex spot: Massive Time Series Management Systems
-    * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra](./papers/modelar.pdf) 
-    * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams](./papers/waterwheel.pdf) 
+    * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra][18]
+    * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams][19]
     * Project Presentations
 * **April 04**:
     * Project Presentations
@@ -99,5 +99,3 @@ an overview of the landscape:
 [17]: ./papers/mmdb_vs_streams.pdf  
 [18]: ./papers/modelar.pdf  
 [19]: ./papers/waterwheel.pdf  
-
-
