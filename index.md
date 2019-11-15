@@ -24,6 +24,8 @@ an overview of the landscape:
    distributed infrastructure. We'll also contrast the current state of the art
    with what could be given considerations of modern hardware.
 
+## Projects
+
 ## Schedule
 
 ### Topic: Introduction to Time Series Management Systems (TSMS)
@@ -66,7 +68,7 @@ an overview of the landscape:
     * [Kafka: a Distributed Messaging System for Log Processing][14]
     * [Samza: Stateful Scalable Stream Processing at LinkedIn][15]
 * **April 20**: Modern Hardware
-    * [Analyzing Efficient Stream Processing on Modern Hardware][15]
+    * [Analyzing Efficient Stream Processing on Modern Hardware][16]
     * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems][17]
 
 ### Projects Presentations
