@@ -28,27 +28,23 @@
 * Topic: Time Series Similarity Search
     * **March 16**: Distance Measures
         * [Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping](keogh_trillion.pdf)
-    * **March 23**: Spring break
-        * Spring reading: [The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances](./papers/great_ts_bakeoff.pdf)
-    * **March 30**: Representation
+    * **March 23**: Spring break (helpful reads)
         * [iSAX: Indexing and Mining Terabyte Sized Time Series](./papers/iSAX.pdf) 
         * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets](./papers/sfa.pdf) 
-    * **March 23**: Indexing
+    * **March 30**: Representation
         * [Coconut: A Scalable Bottom-Up Approach for Building Data Series Indexes](./papers/coconut.pdf) 
-    * **March 30**: Clustering
+    * **April 06**: Clustering
         * [Multivariate Time Series Classification with WEASEL+MUSE](./papers/weasel_muse.pdf) 
 * Topic: Massive Time Series
-    * **April 06**: Massive Streams
+    * **April 13**: Massive Streams
         * [Kafka: a Distributed Messaging System for Log Processing](./papers/Kafka.pdf) 
         * [Samza: Stateful Scalable Stream Processing at LinkedIn](./papers/samza.pdf) 
-    * **April 13**: Modern Hardware
+    * **April 20**: Modern Hardware
         * [Analyzing Efficient Stream Processing on Modern Hardware](./papers/efficient_streams_on_modern_hardware.pdf)
         * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems](./papers/mmdb_vs_streams.pdf) 
-    * **April 20**: Massive Time Series Management Systems
+    * **April 27**: Massive Time Series Management Systems
         * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra](./papers/modelar.pdf) 
         * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams](./papers/waterwheel.pdf) 
-    * **April 27**:
-        * Project Presentations
     * **April 04**:
         * Project Presentations
 
