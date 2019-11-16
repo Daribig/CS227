@@ -8,7 +8,7 @@
     * [Project Process](#Project-Process)
     * [Project Ideas](#Project-Ideas)
 * [Schedule](#Schedule)
-    * [Introduction to Time Series Management Systems](#Introduction-to-Time-Series-Management-Systems)
+    * [Introduction to Time Series Management Systems](#Topic-Introduction-to-Time-Series-Management-Systems)
     * [Time Series Data and Storage](#Time-Series-Data-and-Storage)
     * [Time Series Similarity Search](#Time.Series.Similarity.Search)
     * [Massive Time Series](#Massive.Time.Series)
