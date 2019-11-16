@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-* [What this class is about](## What this class is about)
-* [Projects](## What this class is about)
-    * [Project Requirements](### Project Requirements)
+* [What this class is about](#What-this-class-is-about)
+* [Projects](#Projects)
+    * [Project Requirements](#Project-Requirements)
 
 ## What this class is about
 Yes. Just as it's all just bits and bytes, it's all just time series also. This
