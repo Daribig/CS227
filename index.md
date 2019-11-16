@@ -5,6 +5,15 @@
 * [What this class is about](#What-this-class-is-about)
 * [Projects](#Projects)
     * [Project Requirements](#Project-Requirements)
+    * [Project Process](#Project-Process)
+    * [Project Ideas](#Project-Ideas)
+* [Schedule](#Schedule)
+    * [Introduction to Time Series Management Systems](#Introduction-to-Time-Series-Management-Systems)
+    * [Time Series Data and Storage](#Time-Series-Data-and-Storage)
+    * [Time Series Similarity Search](#Time.Series.Similarity.Search)
+    * [Massive Time Series](#Massive.Time.Series)
+    * [Projects Presentations](#Projects.Presentations)
+
 
 ## What this class is about
 Yes. Just as it's all just bits and bytes, it's all just time series also. This
@@ -29,6 +38,8 @@ an overview of the landscape:
    account. We'll learn how industry deals with massive streams in their
    distributed infrastructure. We'll also contrast the current state of the art
    with what could be given considerations of modern hardware.
+
+([top](#Table-of-Contents))
 
 ## Projects
 
@@ -80,9 +91,11 @@ implementation.
 * Implement some time series similarity search index - e.g. iSAX, Coconut, then
   how do you use this in multi-dimensional timeseries.
 
+([top](#Table-of-Contents))
+
 ## Schedule
 
-### Topic: Introduction to Time Series Management Systems (TSMS)
+### Topic: Introduction to Time Series Management Systems
 
 * **February 03**:
     * Introductions to the class
@@ -134,6 +147,8 @@ implementation.
     * Project Presentations
 * **May 04**:
     * Project Presentations
+
+([top](#Table-of-Contents))
 
 ## Links
 
