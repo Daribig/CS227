@@ -9,10 +9,10 @@
     * [Project Ideas](#Project-Ideas)
 * [Schedule](#Schedule)
     * [Introduction to Time Series Management Systems](#Topic-Introduction-to-Time-Series-Management-Systems)
-    * [Time Series Data and Storage](#Time-Series-Data-and-Storage)
-    * [Time Series Similarity Search](#Time.Series.Similarity.Search)
-    * [Massive Time Series](#Massive.Time.Series)
-    * [Projects Presentations](#Projects.Presentations)
+    * [Time Series Data and Storage](#Topic-Time-Series-Data-and-Storage)
+    * [Time Series Similarity Search](#Topic-Time-Series-Similarity-Search)
+    * [Massive Time Series](#Topic-Massive-Time-Series)
+    * [Projects Presentations](#Topic-Projects-Presentations)
 
 
 ## What this class is about
