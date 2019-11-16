@@ -26,14 +26,63 @@ an overview of the landscape:
 
 ## Projects
 
+You'll also be working on projects that involve modern or even novel techniques
+to address a research question. We have our own ideas that we prefer you work on
+or at least guide your project. We are also open to your own ideas.
+
+### Project Requirements
+
+* Significant coding portion that implements your research
+* Must be written in Rust - We'll provide as much support as needed to get you
+  up to speed
+* A write up that describes what you did and how you did it, along with
+  benchmarks or other measurements that you use to show whether your hypothesis
+  was verified or not. (Not all "good" hypotheses are verified!)
+* We'll have regular checkins:
+    * Week of February 24: project idea
+    * Week of March 15: progress check-in
+    * Week of March 30: progress check-in
+    * Week of April 13: progress check-in
+    * Week of April 27: write-up check-in
+* We'll have project presentations. We might have it on April 27, but it we'll
+  definitely have it in the last day of class.
+
+### Project Process
+
+We stand on the shoulder of giants so we don't just go into it blindly. We'll
+first implement something based on the current state of the art (SotA), and then
+find its shortcomings. After implementing it or learning more about the
+workloads that we expect we handle, we'll have some hypothesis of what workloads
+the SotA excels and where it might not.
+
+We then test our hypothesis by building a few experiments that show this to be
+the case. Finally, we implement our ideas for how it could work better. It could
+be a completely new structure, or an improvement on the current SotA
+implementation.
+
+### Project Ideas
+
+**Storage**
+* Implement BTrDB storage in Rust then compare with Gorilla or find
+  optimizations to storage structure.
+* Implement a Rust wrapper around TileDB and then explore how best to use TileDB
+  as a time series storage structure
+
+**Indexing**
+* Investigate how to store and index time series tags in Gorilla or BTrDB. If in
+  BTrDB, can be an optimization to the storage project.
+* Implement some time series similarity search index - e.g. iSAX, Coconut, then
+  how do you use this in multi-dimensional timeseries.
+
 ## Schedule
 
 ### Topic: Introduction to Time Series Management Systems (TSMS)
 
 * **February 03**:
     * Introductions to the class
-    * [Goku: Pinterest’s in-house time-series database (Video)][1]
     * [InfluxDB's sell on TSDBs][2]
+    * [Goku: Pinterest’s in-house time-series database (Video)][1]
+    * [Spark ITS: Indexing for Large Scale Time Series Data on Apache Spark][20]
 
 ### Topic: Time Series Data and Storage
 
@@ -64,10 +113,10 @@ an overview of the landscape:
 
 ### Topic: Massive Time Series
 
-* **April 13**: Massive Streams
+* **April 13**: Massive Streams (this is where the industry's at)
     * [Kafka: a Distributed Messaging System for Log Processing][14]
     * [Samza: Stateful Scalable Stream Processing at LinkedIn][15]
-* **April 20**: Modern Hardware
+* **April 20**: Modern Hardware (this is what academia is concerned with)
     * [Analyzing Efficient Stream Processing on Modern Hardware][16]
     * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems][17]
 
@@ -77,7 +126,7 @@ an overview of the landscape:
     * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra][18]
     * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams][19]
     * Project Presentations
-* **April 04**:
+* **May 04**:
     * Project Presentations
 
 ## Links
@@ -101,3 +150,4 @@ an overview of the landscape:
 [17]: ./papers/mmdb_vs_streams.pdf  
 [18]: ./papers/modelar.pdf  
 [19]: ./papers/waterwheel.pdf  
+[20]: https://www.youtube.com/watch?v=xwnwVeYlP8o
