@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-* [What this class is about](#What-this-class-is-about)
-* [Projects](#Projects)
-    * [Project Requirements](#Project-Requirements)
-    * [Project Process](#Project-Process)
-    * [Project Ideas](#Project-Ideas)
-* [Schedule](#Schedule)
-    * [Introduction to Time Series Management Systems](#Topic-Introduction-to-Time-Series-Management-Systems)
-    * [Time Series Data and Storage](#Topic-Time-Series-Data-and-Storage)
-    * [Time Series Similarity Search](#Topic-Time-Series-Similarity-Search)
-    * [Massive Time Series](#Topic-Massive-Time-Series)
-    * [Projects Presentations](#Topic-Projects-Presentations)
+* [What this class is about](#what-this-class-is-about)
+* [Projects](#projects)
+    * [Project Requirements](#project-requirements)
+    * [Project Process](#project-process)
+    * [Project Ideas](#project-ideas)
+* [Schedule](#schedule)
+    * [Introduction to Time Series Management Systems](#topic-introduction-to-time-series-management-systems)
+    * [Time Series Data and Storage](#topic-time-series-data-and-storage)
+    * [Time Series Similarity Search](#topic-time-series-similarity-search)
+    * [Massive Time Series](#topic-massive-time-series)
+    * [Projects Presentations](#topic-projects-presentations)
 
 
 ## What this class is about
