@@ -39,7 +39,7 @@ an overview of the landscape:
    distributed infrastructure. We'll also contrast the current state of the art
    with what could be given considerations of modern hardware.
 
-([top](#Table-of-Contents))
+([top](#table-of-contents))
 
 ## Projects
 
@@ -91,7 +91,7 @@ implementation.
 * Implement some time series similarity search index - e.g. iSAX, Coconut, then
   how do you use this in multi-dimensional timeseries.
 
-([top](#Table-of-Contents))
+([top](#table-of-contents))
 
 ## Schedule
 
@@ -115,8 +115,10 @@ implementation.
     * [OpenTSDB Storage][6]
 * **March 02**: Storage in papers
     * [Gorilla: A Fast, Scalable, In-Memory Time Series Database][7]
-* **March 09**: Storage in papers 2
     * [BTrDB: Optimizing Storage System Design for Time Series Processing][8]
+* **March 09**: Storage in papers 2
+    * ModelarDB?
+    * Apache Parquet vs TileDB?
 
 ### Topic: Time Series Similarity Search
 
@@ -125,10 +127,12 @@ implementation.
 * **March 23**: Spring break (helpful reads)
     * [iSAX: Indexing and Mining Terabyte Sized Time Series][10]
     * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets][11]
-* **March 30**: Representation
+* **March 30**: Indexing
     * [Coconut: A Scalable Bottom-Up Approach for Building Data Series Indexes][12]
+    * Ulisse
 * **April 06**: Clustering
     * [Multivariate Time Series Classification with WEASEL+MUSE][13]
+    * K-Shape?
 
 ### Topic: Massive Time Series
 
@@ -148,7 +152,7 @@ implementation.
 * **May 04**:
     * Project Presentations
 
-([top](#Table-of-Contents))
+([top](#table-of-contents))
 
 ## Links
 
