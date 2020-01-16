@@ -117,22 +117,22 @@ implementation.
     * [Gorilla: A Fast, Scalable, In-Memory Time Series Database][7]
     * [BTrDB: Optimizing Storage System Design for Time Series Processing][8]
 * **March 09**: Storage in papers 2
-    * ModelarDB?
     * Apache Parquet vs TileDB?
 
 ### Topic: Time Series Similarity Search
 
 * **March 16**: Distance Measures
     * [Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping][9]
+    * [The Lernaean Hydra of Data Series Similarity Search: An Experimental Evaluation of the State of the Art][23]
 * **March 23**: Spring break (helpful reads)
     * [iSAX: Indexing and Mining Terabyte Sized Time Series][10]
     * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets][11]
 * **March 30**: Indexing
     * [Coconut: A Scalable Bottom-Up Approach for Building Data Series Indexes][12]
-    * Ulisse
+    * [Scalable, Variable-Length Similarity Search in Data Series: The ULISSE Approach][21]
 * **April 06**: Clustering
     * [Multivariate Time Series Classification with WEASEL+MUSE][13]
-    * K-Shape?
+    * [k-Shape: Efficient and Accurate Clustering of Time Series][22]
 
 ### Topic: Massive Time Series
 
@@ -176,3 +176,6 @@ implementation.
 [18]: ./papers/modelar.pdf  
 [19]: ./papers/waterwheel.pdf  
 [20]: https://www.youtube.com/watch?v=xwnwVeYlP8o
+[21]: ./papers/ulisse.pdf  
+[22]: ./papers/kshape.pdf
+[23]: ./papers/learnaean.pdf
