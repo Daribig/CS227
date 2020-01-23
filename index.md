@@ -97,7 +97,7 @@ implementation.
 
 ### Topic: Introduction to Time Series Management Systems
 
-* **February 03**:
+* **January 27**:
     * Introductions to the class
     * [InfluxDB's sell on TSDBs][2]
     * [Goku: Pinterest’s in-house time-series database (Video)][1]
@@ -105,49 +105,51 @@ implementation.
 
 ### Topic: Time Series Data and Storage
 
-* **Febuary 10**: Storage in the wild
+* **Febuary 03**: Storage in the wild
     * [Prometheus Storage Overview][3]
     * [Prometheus Storage Details][4]
-* **Febuary 17**:
-    * No class - President's Day
-* **February 24**: Storage in the wild
+* **February 10**: Storage in the wild
     * [IndluxDB Storage][5]
     * [OpenTSDB Storage][6]
-* **March 02**: Storage in papers
+* **Febuary 17**:
+    * No class - President's Day
+* **March 24**: Storage in papers
     * [Gorilla: A Fast, Scalable, In-Memory Time Series Database][7]
     * [BTrDB: Optimizing Storage System Design for Time Series Processing][8]
-* **March 09**: Storage in papers 2
+* **March 02**: Storage in papers 2
     * Apache Parquet vs TileDB?
 
 ### Topic: Time Series Similarity Search
 
-* **March 16**: Distance Measures
+* **March 09**: Distance Measures
     * [Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping][9]
     * [The Lernaean Hydra of Data Series Similarity Search: An Experimental Evaluation of the State of the Art][23]
-* **March 23**: Spring break (helpful reads)
-    * [iSAX: Indexing and Mining Terabyte Sized Time Series][10]
-    * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets][11]
-* **March 30**: Indexing
+* **March 16**: Spring break (helpful reads)
     * [Coconut: A Scalable Bottom-Up Approach for Building Data Series Indexes][12]
     * [Scalable, Variable-Length Similarity Search in Data Series: The ULISSE Approach][21]
-* **April 06**: Clustering
+* **March 23**: Indexing
+    * [iSAX: Indexing and Mining Terabyte Sized Time Series][10]
+    * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets][11]
+* **March 30**: Clustering
     * [Multivariate Time Series Classification with WEASEL+MUSE][13]
     * [k-Shape: Efficient and Accurate Clustering of Time Series][22]
 
 ### Topic: Massive Time Series
 
-* **April 13**: Massive Streams (this is where the industry's at)
+* **April 06**: Massive Streams (this is where the industry's at)
     * [Kafka: a Distributed Messaging System for Log Processing][14]
     * [Samza: Stateful Scalable Stream Processing at LinkedIn][15]
-* **April 20**: Modern Hardware (this is what academia is concerned with)
+* **April 13**: Modern Hardware (this is what academia is concerned with)
     * [Analyzing Efficient Stream Processing on Modern Hardware][16]
     * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems][17]
 
 ### Projects Presentations
 
-* **April 27**: Flex spot: Massive Time Series Management Systems
+* **April 20**
     * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra][18]
     * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams][19]
+* **April 27**:
+    * Observability?
     * Project Presentations
 * **May 04**:
     * Project Presentations
