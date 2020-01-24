@@ -106,28 +106,31 @@ implementation.
 ### Topic: Time Series Data and Storage
 
 * **Febuary 03**: Storage in the wild
-    * [Prometheus Storage Overview][3]
-    * [Prometheus Storage Details][4]
-* **February 10**: Storage in the wild
-    * [IndluxDB Storage][5]
-    * [OpenTSDB Storage][6]
+    * [Prometheus Storage Overview][3] and [Details][4]
+    * [InfluxDB Storage][5]
+* **February 10**: Storage in papers (Compression)
+    * [Gorilla: A Fast, Scalable, In-Memory Time Series Database][7]
+    * [Sprintz][27]
 * **Febuary 17**:
     * No class - President's Day
-* **March 24**: Storage in papers
-    * [Gorilla: A Fast, Scalable, In-Memory Time Series Database][7]
+* **March 24**: More Storage in papers (Alternative Strategies)
     * [BTrDB: Optimizing Storage System Design for Time Series Processing][8]
-* **March 02**: Storage in papers 2
-    * Apache Parquet vs TileDB?
+    * [The TileDB Array Data Storage Manager][24]; This is a funded
+    [company][25] with well [documented apis and file formats][26]
+* **March 02**: Industry Papers on Time Series(ish) Databases
+    * [Druid][28]; This is one among many "massively distributed OLAP systems"
+    and is frequently considered a TSDB
+    * [BigTable][29]; This is a foundational paper for the wide column store data model used in HBase and Cassandra which are in turn, the foundations of OpenTSDB, KairosDB, and others.
 
 ### Topic: Time Series Similarity Search
 
 * **March 09**: Distance Measures
     * [Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping][9]
     * [The Lernaean Hydra of Data Series Similarity Search: An Experimental Evaluation of the State of the Art][23]
-* **March 16**: Spring break (helpful reads)
+* **March 16**: Indexing
     * [Coconut: A Scalable Bottom-Up Approach for Building Data Series Indexes][12]
     * [Scalable, Variable-Length Similarity Search in Data Series: The ULISSE Approach][21]
-* **March 23**: Indexing
+* **March 23**: Spring Break (Background/easy reading)
     * [iSAX: Indexing and Mining Terabyte Sized Time Series][10]
     * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets][11]
 * **March 30**: Clustering
@@ -135,11 +138,10 @@ implementation.
     * [k-Shape: Efficient and Accurate Clustering of Time Series][22]
 
 ### Topic: Massive Time Series
-
-* **April 06**: Massive Streams (this is where the industry's at)
+* **April 06**: Foundations of Stream Processing at Scale
     * [Kafka: a Distributed Messaging System for Log Processing][14]
     * [Samza: Stateful Scalable Stream Processing at LinkedIn][15]
-* **April 13**: Modern Hardware (this is what academia is concerned with)
+* **April 13**: Modern Hardware
     * [Analyzing Efficient Stream Processing on Modern Hardware][16]
     * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems][17]
 
@@ -181,3 +183,9 @@ implementation.
 [21]: ./papers/ulisse.pdf  
 [22]: ./papers/kshape.pdf
 [23]: ./papers/learnaean.pdf
+[24]: ./papers/tiledb.pdf
+[25]: https://tiledb.com
+[26]: https://docs.tiledb.com/main/
+[27]: ./papers/sprintz.pdf
+[28]: ./papers/druid.pdf
+[29]: ./papers/bigtable.pdf
