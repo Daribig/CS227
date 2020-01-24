@@ -6,6 +6,9 @@
 > What dilates when you go fast?
 > - some time series guy
 
+> `$ git push origin hamster`
+> - same dude as above
+
 ## Table of Contents
 
 * [What this class is about](#what-this-class-is-about)
