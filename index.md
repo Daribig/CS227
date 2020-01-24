@@ -150,9 +150,10 @@ find a way to make symbolic representations data-adaptive.
 * **March 02**: Industry Papers on Time Series(ish) Databases
     * [Druid][28]; This is one among many "massively distributed OLAP systems"
     and is frequently considered a TSDB
-    * [BigTable][29]; This is a foundational paper for the wide column store
-    data model used in HBase and Cassandra which are in turn, the foundations of
-    OpenTSDB, KairosDB, and others.
+    * [Bigtable: A Distributed Storage System for Structured Data][29]; This is
+    a foundational paper for the wide column store data model used in HBase and
+    Cassandra which are in turn, the foundations of OpenTSDB, KairosDB, and
+    others.
 
 ### Topic: Time Series Similarity Search
 
