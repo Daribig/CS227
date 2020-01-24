@@ -4,10 +4,10 @@
 > What's only coming, or has just past?  
 > What goes loopy when you take crack?  
 > What dilates when you go fast?  
->   - some time series guy
+>   -- <cite>some time series guy</cite>
 
 > `$ git push origin hamster`  
->   - same dude as above
+>   -- <cite>same guy</cite>
 
 ## Table of Contents
 
