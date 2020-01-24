@@ -1,13 +1,13 @@
 # Everything is a Time Series
 
-> What goes forward never back?
-> What's only coming, or has just past?
-> What goes loopy when you take crack? 
-> What dilates when you go fast?
-> - some time series guy
+> What goes forward never back?</br>
+> What's only coming, or has just past?</br>
+> What goes loopy when you take crack?</br>
+> What dilates when you go fast?</br>
+>   - some time series guy
 
-> `$ git push origin hamster`
-> - same dude as above
+> `$ git push origin hamster`</br>
+>   - same dude as above
 
 ## Table of Contents
 
