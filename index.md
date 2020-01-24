@@ -1,5 +1,11 @@
 # Everything is a Time Series
 
+> What goes forward never back?
+> What's only coming, or has just past?
+> What goes loopy when you take crack? 
+> What dilates when you go fast?
+> - some time series guy
+
 ## Table of Contents
 
 * [What this class is about](#what-this-class-is-about)
@@ -45,24 +51,37 @@ an overview of the landscape:
 
 You'll also be working on projects that involve modern or even novel techniques
 to address a research question. We have our own ideas that we prefer you work on
-or at least guide your project. We are also open to your own ideas.
+or at least guide your project. We are also open to your own ideas if none of
+these ideas appeal to you.
+
+We're actually pretty adamant that you work on our ideas.
+
+### Project Goal by student demographic
+
+We want you to leave with a significant amount of code.
+
+* For non-PhDs, this is a great software artifact to present to potential
+  employers.
+* For Sophomores/Juniors, this is our opportunity to convince you that you
+  should do research with us!
+* For PhDs, well it's a cool project and our questions are things we really do
+  plan on writing papers on (and yours could become one!)
 
 ### Project Requirements
 
 * Significant coding portion that implements your research
-* Must be written in Rust - We'll provide as much support as needed to get you
-  up to speed
+* Will likely be written in Rust - We'll provide as much support as needed to
+  get you up to speed
 * A write up that describes what you did and how you did it, along with
   benchmarks or other measurements that you use to show whether your hypothesis
   was verified or not. (Not all "good" hypotheses are verified!)
-* We'll have regular checkins:
-    * Week of February 24: project idea
-    * Week of March 15: progress check-in
-    * Week of March 30: progress check-in
-    * Week of April 13: progress check-in
-    * Week of April 27: write-up check-in
-* We'll have project presentations. We might have it on April 27, but it we'll
-  definitely have it in the last day of class.
+* We'll have regular checkins in class:
+    * Week of February 10: project selection or proposal
+    * Weeks of February 24 - March 9: Round-robin progress check-ins
+    * Subsequent weeks: Project update presentations for 2 groups e/a week until
+      everyone has presented
+* At end of class, we'll all have presentations. The logistics for this is still
+  tbd
 
 ### Project Process
 
@@ -75,21 +94,27 @@ the SotA excels and where it might not.
 We then test our hypothesis by building a few experiments that show this to be
 the case. Finally, we implement our ideas for how it could work better. It could
 be a completely new structure, or an improvement on the current SotA
-implementation.
+implementation. Then we use the experiments we designed to show that our
+solution works or doesn't.
 
-### Project Ideas
+### Project options
 
-**Storage**
-* Implement BTrDB storage in Rust then compare with Gorilla or find
-  optimizations to storage structure.
-* Implement a Rust wrapper around TileDB and then explore how best to use TileDB
-  as a time series storage structure
+**Dynamic Time Warping in Multiple Dimensions**
+* Is there a way to design a lower-bounding measure for Dynamic Time Warping in
+multiple dimensions?
 
-**Indexing**
-* Investigate how to store and index time series tags in Gorilla or BTrDB. If in
-  BTrDB, can be an optimization to the storage project.
-* Implement some time series similarity search index - e.g. iSAX, Coconut, then
-  how do you use this in multi-dimensional timeseries.
+**Compressed Time Series Storage**
+* Gorilla, Sprintz, and similar compression/storage techniques ignore the
+existence of tags in the ingested TS. Can we design a TS storage engine that
+takes tags as a first-class citizen?
+
+**Multidimensional Time Series Similarity Search Index**
+* Can we design a time series index without the need to use machine learning or
+initial data that supports multidimensional time series similarity search?
+
+**Time Series Data Representation**
+* Current symbolic time series representations fail to be data adaptive. Can we
+find a way to make symbolic representations data-adaptive.
 
 ([top](#table-of-contents))
 
@@ -98,10 +123,12 @@ implementation.
 ### Topic: Introduction to Time Series Management Systems
 
 * **January 27**:
-    * Introductions to the class
-    * [InfluxDB's sell on TSDBs][2]
-    * [Goku: Pinterest’s in-house time-series database (Video)][1]
-    * [Spark ITS: Indexing for Large Scale Time Series Data on Apache Spark][20]
+    * Introductions to the class logistics
+    * An overview of timeseries databases and workloads
+    * Some helpful material to whet your appetite:
+        * [InfluxDB's sell on TSDBs][2]
+        * [Goku: Pinterest’s in-house time-series database (Video)][1]
+        * [Spark ITS: Indexing for Large Scale Time Series Data on Apache Spark][20]
 
 ### Topic: Time Series Data and Storage
 
@@ -112,15 +139,17 @@ implementation.
     * [Gorilla: A Fast, Scalable, In-Memory Time Series Database][7]
     * [Sprintz][27]
 * **Febuary 17**:
-    * No class - President's Day
-* **March 24**: More Storage in papers (Alternative Strategies)
+    * No class - Project literature review!
+* **February 24**: More Storage in papers (Alternative Strategies)
     * [BTrDB: Optimizing Storage System Design for Time Series Processing][8]
     * [The TileDB Array Data Storage Manager][24]; This is a funded
     [company][25] with well [documented apis and file formats][26]
 * **March 02**: Industry Papers on Time Series(ish) Databases
     * [Druid][28]; This is one among many "massively distributed OLAP systems"
     and is frequently considered a TSDB
-    * [BigTable][29]; This is a foundational paper for the wide column store data model used in HBase and Cassandra which are in turn, the foundations of OpenTSDB, KairosDB, and others.
+    * [BigTable][29]; This is a foundational paper for the wide column store
+    data model used in HBase and Cassandra which are in turn, the foundations of
+    OpenTSDB, KairosDB, and others.
 
 ### Topic: Time Series Similarity Search
 
@@ -150,7 +179,8 @@ implementation.
 * **April 20**
     * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra][18]
     * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams][19]
-* **April 27**:
+* **April 27** What's happening here? The stars shall align and time shall
+  dilate
     * Observability?
     * Project Presentations
 * **May 04**:
