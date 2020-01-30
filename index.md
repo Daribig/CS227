@@ -104,7 +104,7 @@ solution works or doesn't.
 
 **Dynamic Time Warping in Multiple Dimensions**
 * Is there a way to design a lower-bounding measure for Dynamic Time Warping in
-multiple dimensions? [Papers](30)
+multiple dimensions? [Papers][30]
 
 **Compressed Time Series Storage**
 * Gorilla, Sprintz, and similar compression/storage techniques ignore the
