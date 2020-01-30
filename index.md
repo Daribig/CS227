@@ -109,16 +109,16 @@ multiple dimensions? [Papers][30]
 **Compressed Time Series Storage**
 * Gorilla, Sprintz, and similar compression/storage techniques ignore the
 existence of tags in the ingested TS. Can we design a TS storage engine that
-takes tags as a first-class citizen? [Papers](31)
+takes tags as a first-class citizen? [Papers][31]
 
 **Multidimensional Time Series Similarity Search Index**
 * Can we design a time series index without the need to use machine learning or
 initial data that supports multidimensional time series similarity search?
-[Papers](32)
+[Papers][32]
 
 **Time Series Data Representation**
 * Current symbolic time series representations fail to be data adaptive. Can we
-find a way to make symbolic representations data-adaptive. [Papers](33)
+find a way to make symbolic representations data-adaptive. [Papers][33]
 
 ([top](#table-of-contents))
 
