@@ -141,7 +141,7 @@ find a way to make symbolic representations data-adaptive. [Papers][33]
     * [InfluxDB Storage][5]
 * **February 10**: Storage in papers (Compression)
     * [Gorilla: A Fast, Scalable, In-Memory Time Series Database][7]
-    * [Sprintz][27]
+    * [Sprintz: Time Series Compression for the Internet of Things][27]
 * **Febuary 17**:
     * No class - Project literature review!
 * **February 24**: More Storage in papers (Alternative Strategies)
@@ -225,3 +225,4 @@ find a way to make symbolic representations data-adaptive. [Papers][33]
 [28]: ./papers/druid.pdf
 [29]: ./papers/bigtable.pdf
 [30]: dtw_papers.md
+[31]: storage_papers.md
