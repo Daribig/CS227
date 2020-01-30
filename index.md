@@ -224,3 +224,4 @@ find a way to make symbolic representations data-adaptive. [Papers](33)
 [27]: ./papers/sprintz.pdf
 [28]: ./papers/druid.pdf
 [29]: ./papers/bigtable.pdf
+[30]: ./dtw_papers.md
