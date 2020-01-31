@@ -238,3 +238,5 @@ Submit your reading summaries here: https://forms.gle/HZVhYb3GmsgtSXMi8
 [29]: ./papers/bigtable.pdf
 [30]: dtw_papers.md
 [31]: storage_papers.md
+[32]: ss_index_papers.md
+[33]: adaptive_symbol_papers.md
