@@ -120,6 +120,10 @@ initial data that supports multidimensional time series similarity search?
 * Current symbolic time series representations fail to be data adaptive. Can we
 find a way to make symbolic representations data-adaptive. [Papers][33]
 
+### Project Assignments
+
+Can be found here: [https://tinyurl.com/yxyephz2][34]
+
 ## Readings
 
 The schedule below follows the readings we for every week. Although these
@@ -135,6 +139,10 @@ Submit your reading summaries here: https://forms.gle/HZVhYb3GmsgtSXMi8
 ([top](#table-of-contents))
 
 ## Schedule
+
+### Reading assignments
+
+Can be found here: [https://tinyurl.com/yxyephz2][34]
 
 ### Topic: Introduction to Time Series Management Systems
 
@@ -240,3 +248,4 @@ Submit your reading summaries here: https://forms.gle/HZVhYb3GmsgtSXMi8
 [31]: storage_papers.md
 [32]: ss_index_papers.md
 [33]: adaptive_symbol_papers.md
+[34]: https://tinyurl.com/yxyephz2
