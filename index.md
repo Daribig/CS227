@@ -134,7 +134,7 @@ more material directly related to but not included in the readings.
 summaries are pretty free-form but generally speaking we want you to compare and
 contrast the approaches in each of the papers.
 
-Submit your reading summaries here: https://forms.gle/HZVhYb3GmsgtSXMi8
+Submit your reading summaries here: [https://forms.gle/HZVhYb3GmsgtSXMi8][35]
 
 ([top](#table-of-contents))
 
@@ -249,3 +249,4 @@ Can be found here: [https://tinyurl.com/yxyephz2][34]
 [32]: ss_index_papers.md
 [33]: adaptive_symbol_papers.md
 [34]: https://tinyurl.com/yxyephz2
+[35]: https://forms.gle/HZVhYb3GmsgtSXMi8
