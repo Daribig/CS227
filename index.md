@@ -204,10 +204,8 @@ Can be found here: [https://tinyurl.com/yxyephz2][34]
 * **April 20**
     * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra][18]
     * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams][19]
-* **April 27** What's happening here? The stars shall align and time shall
-  dilate
-    * Observability?
-    * Project Presentations
+* **April 27** Observability and other Time Series Applications
+    * TBD
 * **May 04**:
     * Project Presentations
 
