@@ -199,13 +199,16 @@ Can be found here: [https://tinyurl.com/yxyephz2][34]
     * [Analyzing Efficient Stream Processing on Modern Hardware][16]
     * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems][17]
 
-### Projects Presentations
+### Different Perspectives on Time Series Data
 
-* **April 20**
+* **April 20**: Alternative Approaches to Time Series Data
     * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra][18]
     * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams][19]
-* **April 27** Observability and other Time Series Applications
-    * TBD
+* **April 27** Applications of Time Series Data
+    * Observability (TBD)
+    * IoT (TBD)
+
+### Project Presentations
 * **May 04**:
     * Project Presentations
 
