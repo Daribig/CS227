@@ -50,6 +50,11 @@ an overview of the landscape:
 
 ([top](#table-of-contents))
 
+## Resrouces and Meeting
+
+If you want extra resources or to schedule a meeting, set an appointment at
+[https://bit.ly/38genHt][36]
+
 ## Projects
 
 You'll also be working on projects that involve modern or even novel techniques
@@ -251,3 +256,4 @@ Can be found here: [https://tinyurl.com/yxyephz2][34]
 [33]: adaptive_symbol_papers.md
 [34]: https://tinyurl.com/yxyephz2
 [35]: https://forms.gle/HZVhYb3GmsgtSXMi8
+[36]: https://bit.ly/38genHt
