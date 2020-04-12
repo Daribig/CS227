@@ -210,8 +210,8 @@ Can be found here: [https://tinyurl.com/yxyephz2][34]
     * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra][18]
     * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams][19]
 * **April 27** Applications of Time Series Data
-    * Observability (TBD)
-    * IoT (TBD)
+    * [On Observability and Monitoring of Distributed Systems – An Industry Interview Study][]
+    * [Detecting earthquakes over a seismic network using single-station similarity measures][]
 
 ### Project Presentations
 * **May 04**:
@@ -257,3 +257,5 @@ Can be found here: [https://tinyurl.com/yxyephz2][34]
 [34]: https://tinyurl.com/yxyephz2
 [35]: https://forms.gle/HZVhYb3GmsgtSXMi8
 [36]: https://bit.ly/38genHt
+[37]: ./papers/observability.pdf
+[38]: ./papers/fast.pdf
