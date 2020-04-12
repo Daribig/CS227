@@ -210,8 +210,8 @@ Can be found here: [https://tinyurl.com/yxyephz2][34]
     * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra][18]
     * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams][19]
 * **April 27** Applications of Time Series Data
-    * [On Observability and Monitoring of Distributed Systems – An Industry Interview Study][]
-    * [Detecting earthquakes over a seismic network using single-station similarity measures][]
+    * [On Observability and Monitoring of Distributed Systems – An Industry Interview Study][37]
+    * [Detecting earthquakes over a seismic network using single-station similarity measures][38]
 
 ### Project Presentations
 * **May 04**:
