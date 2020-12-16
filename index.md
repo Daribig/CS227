@@ -66,15 +66,6 @@ We're actually pretty adamant that you work on our ideas.
 
 ### Project Goal by student demographic
 
-We want you to leave with a significant amount of code.
-
-* For non-PhDs, this is a great software artifact to present to potential
-  employers.
-* For Sophomores/Juniors, this is our opportunity to convince you that you
-  should do research with us!
-* For PhDs, well it's a cool project and our questions are things we really do
-  plan on writing papers on (and yours could become one!)
-
 ### Project Requirements
 
 * Significant coding portion that implements your research
@@ -83,51 +74,14 @@ We want you to leave with a significant amount of code.
 * A write up that describes what you did and how you did it, along with
   benchmarks or other measurements that you use to show whether your hypothesis
   was verified or not. (Not all "good" hypotheses are verified!)
-* We'll have regular checkins in class:
-    * Week of February 10: project selection or proposal
-    * Weeks of February 24 - March 9: Round-robin progress check-ins
-    * Subsequent weeks: Project update presentations for 2 groups e/a week until
-      everyone has presented
 * At end of class, we'll all have presentations. The logistics for this is still
   tbd
 
 ### Project Process
 
-We stand on the shoulder of giants so we don't just go into it blindly. We'll
-first implement something based on the current state of the art (SotA), and then
-find its shortcomings. After implementing it or learning more about the
-workloads that we expect we handle, we'll have some hypothesis of what workloads
-the SotA excels and where it might not.
-
-We then test our hypothesis by building a few experiments that show this to be
-the case. Finally, we implement our ideas for how it could work better. It could
-be a completely new structure, or an improvement on the current SotA
-implementation. Then we use the experiments we designed to show that our
-solution works or doesn't.
-
 ### Project options
 
-**Dynamic Time Warping in Multiple Dimensions**
-* Is there a way to design a lower-bounding measure for Dynamic Time Warping in
-multiple dimensions? [Papers][30]
-
-**Compressed Time Series Storage**
-* Gorilla, Sprintz, and similar compression/storage techniques ignore the
-existence of tags in the ingested TS. Can we design a TS storage engine that
-takes tags as a first-class citizen? [Papers][31]
-
-**Multidimensional Time Series Similarity Search Index**
-* Can we design a time series index without the need to use machine learning or
-initial data that supports multidimensional time series similarity search?
-[Papers][32]
-
-**Time Series Data Representation**
-* Current symbolic time series representations fail to be data adaptive. Can we
-find a way to make symbolic representations data-adaptive. [Papers][33]
-
 ### Project Assignments
-
-Can be found here: [https://tinyurl.com/yxyephz2][34]
 
 ## Readings
 
@@ -139,7 +93,7 @@ more material directly related to but not included in the readings.
 summaries are pretty free-form but generally speaking we want you to compare and
 contrast the approaches in each of the papers.
 
-Submit your reading summaries here: [https://forms.gle/HZVhYb3GmsgtSXMi8][35]
+Submit your reading summaries here: TBD
 
 ([top](#table-of-contents))
 
@@ -147,115 +101,102 @@ Submit your reading summaries here: [https://forms.gle/HZVhYb3GmsgtSXMi8][35]
 
 ### Reading assignments
 
-Can be found here: [https://tinyurl.com/yxyephz2][34]
+Can be found here: TBD
 
 ### Topic: Introduction to Time Series Management Systems
 
-* **January 27**:
+* **January 25**:
     * Introductions to the class logistics
     * An overview of timeseries databases and workloads
     * Some helpful material to whet your appetite:
-        * [InfluxDB's sell on TSDBs][2]
-        * [Goku: Pinterest’s in-house time-series database (Video)][1]
-        * [Spark ITS: Indexing for Large Scale Time Series Data on Apache Spark][20]
+        * [Goku: Pinterest’s in-house time-series database (Video)][23]
+        * [Spark ITS: Indexing for Large Scale Time Series Data on Apache Spark][24]
 
 ### Topic: Time Series Data and Storage
 
-* **Febuary 03**: Storage in the wild
-    * [Prometheus Storage Overview][3] and [Details][4]
-    * [InfluxDB Storage][5]
-* **February 10**: Storage in papers (Compression)
-    * [Gorilla: A Fast, Scalable, In-Memory Time Series Database][7]
-    * [Sprintz: Time Series Compression for the Internet of Things][27]
-* **Febuary 17**:
-    * No class - Project literature review!
-* **February 24**: More Storage in papers (Alternative Strategies)
-    * [BTrDB: Optimizing Storage System Design for Time Series Processing][8]
-    * [The TileDB Array Data Storage Manager][24]; This is a funded
-    [company][25] with well [documented apis and file formats][26]
-* **March 02**: Industry Papers on Time Series(ish) Databases
-    * [Druid][28]; This is one among many "massively distributed OLAP systems"
-    and is frequently considered a TSDB
-    * [Bigtable: A Distributed Storage System for Structured Data][29]; This is
-    a foundational paper for the wide column store data model used in HBase and
-    Cassandra which are in turn, the foundations of OpenTSDB, KairosDB, and
-    others.
+* **February 1**: Prometheus
+    * [Implementing Prometheus][1]
+    * Prometheus details:
+        * [Part 1][2]
+        * [Part 2][3]
+        * [Part 3][4]
+        * [Part 4][5]
+* **February 8**: Prometheus Issues
+    * [Challenges using Prometheus at scale][6]
+    * [Containing your cardinality][7]
+* **February 15**: No classes
 
-### Topic: Time Series Similarity Search
+* **February 22**: Other storage strategies
+    * [TimeScaleDB][8]
+    * [BTrDB: Optimizing Storage System Design for Time Series Processing][9]
+* **March 1**: TSDBs at scale
+    * [Google Monarch][10]
+    * [M3 Architecture - From "Overview" to "Caching"][11]
 
-* **March 09**: Distance Measures
-    * [Searching and Mining Trillions of Time Series Subsequences under Dynamic Time Warping][9]
-    * [The Lernaean Hydra of Data Series Similarity Search: An Experimental Evaluation of the State of the Art][23]
-* **March 16**: Indexing
-    * [Coconut: A Scalable Bottom-Up Approach for Building Data Series Indexes][12]
-    * [Scalable, Variable-Length Similarity Search in Data Series: The ULISSE Approach][21]
-* **March 23**: Spring Break (Background/easy reading)
-    * [iSAX: Indexing and Mining Terabyte Sized Time Series][10]
-    * [SFA: A Symbolic Fourier Approximation and Index for Similarity Search in High Dimensional Datasets][11]
-* **March 30**: Clustering
-    * [Multivariate Time Series Classification with WEASEL+MUSE][13]
-    * [k-Shape: Efficient and Accurate Clustering of Time Series][22]
+### Topic: Time Series Analysis
 
-### Topic: Massive Time Series
-* **April 06**: Foundations of Stream Processing at Scale
-    * [Kafka: a Distributed Messaging System for Log Processing][14]
-    * [Samza: Stateful Scalable Stream Processing at LinkedIn][15]
-* **April 13**: Modern Hardware
-    * [Analyzing Efficient Stream Processing on Modern Hardware][16]
-    * [Analytics on Fast Data: Main-Memory Database Systems versus Modern Streaming Systems][17]
+* **March 8**: Searching for Similar Time Series
+    * [Plato: Approximate Analytics over Compressed Time Series with Tight Deterministic Error Guarantees][12]
+    * [Similarity Preserving Representation Learning for Time Series Clustering][13]
 
-### Different Perspectives on Time Series Data
+* **March 15**: Anomaly Detection
+    * [Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series][14]
+    * [Time-Series Anomaly Detection Service at Microsoft][15]
+    * TODO: Are there other better ones out there?
 
-* **April 20**: Alternative Approaches to Time Series Data
-    * [ModelarDB: Modular Model-Based Time Series Management with Spark and Cassandra][18]
-    * [Waterwheel: Realtime Indexing and Temporal Range Query Processing over Massive Data Streams][19]
-* **April 27** Applications of Time Series Data
-    * [On Observability and Monitoring of Distributed Systems – An Industry Interview Study][37]
-    * [Detecting earthquakes over a seismic network using single-station similarity measures][38]
+* **March 22**: Representation Learning
+    * [GRAIL: Efficient Time-Series Representation Learning][16]
+    * [A Transformer-based Framework for Multivariate Time Series Representation Learning][17]
 
-### Project Presentations
-* **May 04**:
-    * Project Presentations
+### Topic: Observability
+* **March 29**: Metrics
+    * [Seer: Leveraging Big Data to Navigate the Complexity of Performance Debugging in Cloud Microservices][18]
+    * [Sieve: Sieve: Actionable Insights from Monitored Metrics in Microservices][19]
+* **April 5**: Traces
+    * [Pivot Tracing: Dynamic Causal Monitoring for Distributed Systems][20]
+    * [Canopy: An End-to-End Performance Tracing And Analysis System][21]
+* **April 12**: Observability
+    * [The Kaiju Project: Enabling Event-Driven Observability][22]
+
+## Topic: Project Presentations
+* **April 19**: TBD
 
 ([top](#table-of-contents))
 
 ## Links
 
-[1]: https://bit.ly/33UrRHy  
-[2]: https://bit.ly/33SpdlR  
-[3]: https://bit.ly/2QtsEM1 
-[4]: https://bit.ly/32U9dOF 
-[5]: https://bit.ly/372pxjM 
-[6]: https://bit.ly/2NPRDXP 
-[7]: ./papers/gorilla.pdf  
-[8]: ./papers/btrdb.pdf  
-[9]: ./papers/keogh_trillion.pdf 
-[10]: ./papers/iSAX.pdf  
-[11]: ./papers/sfa.pdf  
-[12]: ./papers/coconut.pdf  
-[13]: ./papers/weasel_muse.pdf  
-[14]: ./papers/Kafka.pdf  
-[15]: ./papers/samza.pdf  
-[16]: ./papers/efficient_streams_on_modern_hardware.pdf 
-[17]: ./papers/mmdb_vs_streams.pdf  
-[18]: ./papers/modelar.pdf  
-[19]: ./papers/waterwheel.pdf  
-[20]: https://www.youtube.com/watch?v=xwnwVeYlP8o
-[21]: ./papers/ulisse.pdf  
-[22]: ./papers/kshape.pdf
-[23]: ./papers/learnaean.pdf
-[24]: ./papers/TileDB.pdf
-[25]: https://tiledb.com
-[26]: https://docs.tiledb.com/main/
-[27]: ./papers/sprintz.pdf
-[28]: ./papers/druid.pdf
-[29]: ./papers/bigtable.pdf
-[30]: dtw_papers.md
-[31]: storage_papers.md
-[32]: ss_index_papers.md
-[33]: adaptive_symbol_papers.md
-[34]: https://tinyurl.com/yxyephz2
-[35]: https://forms.gle/HZVhYb3GmsgtSXMi8
-[36]: https://bit.ly/38genHt
-[37]: ./papers/observability.pdf
-[38]: ./papers/fast.pdf
+[1]: https://bit.ly/37uwAUV  
+[2]: https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block/  
+[3]: https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint/  
+[4]: https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk/  
+[5]: https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index/  
+
+[6]: https://sysdig.com/blog/challenges-scale-prometheus/  
+[7]: https://www.youtube.com/watch?v=49BGvC1coG4  
+
+[8]: https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/  
+[9]: ./papers/btrdb.pdf  
+
+[10]: http://www.vldb.org/pvldb/vol13/p3181-adams.pdf  
+[11]: https://m3db.github.io/m3/m3db/architecture/  
+
+[12]: http://www.vldb.org/pvldb/vol13/p1105-lin.pdf  
+[13]: https://arxiv.org/pdf/1702.03584.pdf  
+
+[14]: http://www.vldb.org/pvldb/vol13/p1821-boniol.pdf  
+[15]: https://arxiv.org/pdf/1906.03821.pdf  
+
+[16]: https://dl.acm.org/doi/pdf/10.14778/3342263.3342648  
+[17]: https://arxiv.org/pdf/2010.02803.pdf  
+
+[18]: https://www.csl.cornell.edu/~delimitrou/papers/2019.asplos.seer.pdf  
+[19]: https://arxiv.org/pdf/1709.06686.pdf  
+
+[20]: https://cacm.acm.org/magazines/2020/3/243034-pivot-tracing/fulltext  
+[21]: https://research.fb.com/wp-content/uploads/2017/10/sosp17-final14.pdf  
+
+[22]: https://dl.acm.org/doi/pdf/10.1145/3401025.3401740
+
+
+[23]: https://atscaleconference.com/videos/scale-2018-goku-pinterests-in-house-time-series-database/
+[24]: https://www.youtube.com/watch?v=xwnwVeYlP8o
