@@ -135,9 +135,9 @@ Can be found here: TBD
 
 ### Topic: Time Series Analysis
 
-* **March 8**: Searching for Similar Time Series
+* **March 8**: Analytics Databases
     * [Plato: Approximate Analytics over Compressed Time Series with Tight Deterministic Error Guarantees][12]
-    * [Similarity Preserving Representation Learning for Time Series Clustering][13]
+    * [Timon: A Timestamped Event Database for Efficient Telemetry Data Processing and Analytics][13]
 
 * **March 15**: Anomaly Detection
     * [Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series][14]
@@ -146,7 +146,7 @@ Can be found here: TBD
 
 * **March 22**: Representation Learning
     * [GRAIL: Efficient Time-Series Representation Learning][16]
-    * [A Transformer-based Framework for Multivariate Time Series Representation Learning][17]
+    * [Continuously Adaptive Similarity Search][17]
 
 ### Topic: Observability
 * **March 29**: Metrics
@@ -181,13 +181,13 @@ Can be found here: TBD
 [11]: https://m3db.github.io/m3/m3db/architecture/  
 
 [12]: http://www.vldb.org/pvldb/vol13/p1105-lin.pdf  
-[13]: https://arxiv.org/pdf/1702.03584.pdf  
+[13]: http://www.cs.utah.edu/~lifeifei/papers/timon.pdf  
 
 [14]: http://www.vldb.org/pvldb/vol13/p1821-boniol.pdf  
 [15]: https://arxiv.org/pdf/1906.03821.pdf  
 
 [16]: https://dl.acm.org/doi/pdf/10.14778/3342263.3342648  
-[17]: https://arxiv.org/pdf/2010.02803.pdf  
+[17]: https://dl.acm.org/doi/pdf/10.1145/3318464.3380601  
 
 [18]: https://www.csl.cornell.edu/~delimitrou/papers/2019.asplos.seer.pdf  
 [19]: https://arxiv.org/pdf/1709.06686.pdf  
@@ -195,8 +195,13 @@ Can be found here: TBD
 [20]: https://cacm.acm.org/magazines/2020/3/243034-pivot-tracing/fulltext  
 [21]: https://research.fb.com/wp-content/uploads/2017/10/sosp17-final14.pdf  
 
-[22]: https://dl.acm.org/doi/pdf/10.1145/3401025.3401740
+[22]: https://dl.acm.org/doi/pdf/10.1145/3401025.3401740  
 
 
-[23]: https://atscaleconference.com/videos/scale-2018-goku-pinterests-in-house-time-series-database/
-[24]: https://www.youtube.com/watch?v=xwnwVeYlP8o
+[23]: https://atscaleconference.com/videos/scale-2018-goku-pinterests-in-house-time-series-database/  
+[24]: https://www.youtube.com/watch?v=xwnwVeYlP8o  
+
+
+[25]: https://arxiv.org/pdf/1702.03584.pdf  
+[26]: https://arxiv.org/pdf/2010.02803.pdf  
+
