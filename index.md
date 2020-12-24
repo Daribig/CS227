@@ -106,7 +106,7 @@ related to but not included in the readings.
 pretty free-form but generally speaking we want you to compare and contrast the approaches
 in each of the papers.
 
-Submit your reading summaries here: TBD
+Submit your summaries [here][200]
 
 ### Reading assignments
 
@@ -157,7 +157,6 @@ Final presentation assignments can be found [here][103]
 * **March 15**: Anomaly Detection
     * [Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series][14]
     * [Time-Series Anomaly Detection Service at Microsoft][15]
-    * TODO: Are there other better ones out there?
 
 * **March 22**: Representation Learning
     * [GRAIL: Efficient Time-Series Representation Learning][16]
@@ -233,3 +232,6 @@ Final presentation assignments can be found [here][103]
 [102]: https://forms.gle/EUphDfs9Y4AVdqjRA
 [103]: https://docs.google.com/spreadsheets/d/1AYFCVcBeGGeLPdDvrSGCuiLeKQh6m1k-OIvkrX1m1a8/edit?usp=sharing
 [104]: https://forms.gle/ZfSHsCxFwB1f59NG9
+
+[//]: # (Reading summary submission form)
+[200]: https://forms.gle/ssmYzkVgEqhFkcRK6
