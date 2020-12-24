@@ -91,8 +91,8 @@ archive. Details can be found [here][101].
 
 ### Project Assignments
 
-You can sign-up for your project [here][102]
-Final project assignments can be found [here][103]
+You can sign-up for your project [here][102]  
+Final project assignments can be found [here][103]  
 
 ## Readings
 
@@ -112,8 +112,8 @@ Submit your summaries [here][200]
 
 During each class, two students will present on the paper readings for the week.
 
-Sign up for your presentation preference [here][104]
-Final presentation assignments can be found [here][103]
+Sign up for your presentation preference [here][104]  
+Final presentation assignments can be found [here][103]  
 
 ([top](#table-of-contents))
 
@@ -177,7 +177,7 @@ Final presentation assignments can be found [here][103]
 
 ([top](#table-of-contents))
 
-## Links
+[//]: # (Links)
 
 [//]: # (Prometheus readings)
 [1]: https://bit.ly/37uwAUV  
