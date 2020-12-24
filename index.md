@@ -1,4 +1,3 @@
-# Everything is a Time Series
 
 > What goes forward never back?  
 > What's only coming, or has just past?  
@@ -9,20 +8,29 @@
 > `$ git push origin hamster`  
 >   -- <cite>same guy</cite>
 
+# CS227: Managing and Mining Massive Time Series
+Professor: Prof. Stan Zdonik  
+TA: Franco Solleza  
+  
+Mondays, 15.00 - 17.20  
+Zoom Link:  Email Franco (first_last@brown.edu)  
+
 ## Table of Contents
 
 * [What this class is about](#what-this-class-is-about)
 * [Projects](#projects)
     * [Project Requirements](#project-requirements)
-    * [Project Process](#project-process)
-    * [Project Ideas](#project-ideas)
+    * [Project Options](#project-options)
+    * [Project Assignments](#project-assignments)
+* [Readings](#readings)
+    * [Reading Summaries](#reading-summaries)
+    * [Reading Assignments](#reading-assignments)
 * [Schedule](#schedule)
     * [Introduction to Time Series Management Systems](#topic-introduction-to-time-series-management-systems)
     * [Time Series Data and Storage](#topic-time-series-data-and-storage)
     * [Time Series Similarity Search](#topic-time-series-similarity-search)
-    * [Massive Time Series](#topic-massive-time-series)
+    * [Observability](#observability)
     * [Projects Presentations](#topic-projects-presentations)
-
 
 ## What this class is about
 Yes. Just as it's all just bits and bytes, it's all just time series also. This
@@ -30,23 +38,23 @@ class will be about modern Time Series Management Systems (TSMS) and the
 current research around this area. It will focus on three topics that give you
 an overview of the landscape:
 
-1. Time Series Storage: We'll read about storage engines used in industry and
-   and proposed in academia. The fundamental problems of time series storage:
-   how to store so much data, how long to store the data, and how much of the
-   data store? We'll learn about how different storage engines address the
-   problem and compare their approaches, benefits, and drawbacks.
+1. Time Series Storage: We'll read about storage engines used in industry and and proposed
+   in academia. The fundamental problems of time series storage: how to store so much
+   data, how long to store the data, and how much of the data store? We'll learn about how
+   different storage engines address the problem and compare their approaches, benefits,
+   and drawbacks.
 
-2. Time Series Similarity Search: Given some short time series, can we find the
-   most similar segment(s) of a larger time series? We'll take a look at the
-   algorithms and data structures that allow us to ask these questions. We'll
-   identify different approaches to this problem and critique the current state
-   of the art.
+2. Time Series Analysis: Given some short time series, can we find the most similar
+   segment(s) of a larger time series? We'll take a look at the algorithms and data
+   structures that allow us to ask these questions. We'll identify different approaches to
+   this problem and critique the current state of the art.
 
-3. Streams and Modern Hardware: Before a time series is a time series, it's
-   first a stream. Streams run the internet, your GPS device, and your bank
-   account. We'll learn how industry deals with massive streams in their
-   distributed infrastructure. We'll also contrast the current state of the art
-   with what could be given considerations of modern hardware.
+3. Observability: Modern microservices infrastructure are extremely complex. Observability
+   is the process of giving visibility into the workings of this infrastructure. In
+   observability, there are three main types of data: metrics, logs, and traces. The
+   common dimension for all of these data is time. We will discuss the use of metrics and
+   traces in Observability, what's been done in academia and industry, and what possible
+   lines of research there are in the future.
 
 ([top](#table-of-contents))
 
@@ -58,50 +66,56 @@ If you want extra resources or to schedule a meeting, set an appointment at
 ## Projects
 
 You'll also be working on projects that involve modern or even novel techniques
-to address a research question. We have our own ideas that we prefer you work on
-or at least guide your project. We are also open to your own ideas if none of
-these ideas appeal to you.
-
-We're actually pretty adamant that you work on our ideas.
-
-### Project Goal by student demographic
+to address a research question. We provide a systems project, 
 
 ### Project Requirements
 
 * Significant coding portion that implements your research
-* Will likely be written in Rust - We'll provide as much support as needed to
-  get you up to speed
-* A write up that describes what you did and how you did it, along with
-  benchmarks or other measurements that you use to show whether your hypothesis
-  was verified or not. (Not all "good" hypotheses are verified!)
-* At end of class, we'll all have presentations. The logistics for this is still
-  tbd
-
-### Project Process
+* A write up that describes what you did and how you did it, along with benchmarks or
+other measurements that you use to show whether your hypothesis was verified or not.
+* At end of class, we'll all have presentations. The logistics for this is still tbd
 
 ### Project options
 
+* **Systems Project**: In this project, you will implement a TSDB in Rust. It will support
+writing entries into persistent storage, reading and filtering these entries similar to a
+`SELECT` with a `WHERE` clause, and simple aggregations. We will benchmark your project
+using synthetic data we will make available.
+
+* **Analytics Project**: In this project, you will implement a time series
+nearest-neighbor classifier. This requires finding a distance measure like Euclidean
+Distance or DTW, a representation, or both, with which you find nearest neighbors of a
+specific timeseries. We will benchmark your project using the UCR/UEA time series
+archive.
+
 ### Project Assignments
+
+Can be found here: TBD
 
 ## Readings
 
-The schedule below follows the readings we for every week. Although these
-readings are the specifics we want to cover during the class, feel free to read
-more material directly related to but not included in the readings.
+The schedule below follows the readings for every week. Although these readings are the
+specifics we want to cover during the class, feel free to read more material directly
+related to but not included in the readings.
 
-**Reading Summaries** for the day's are to be submitted before class. These
-summaries are pretty free-form but generally speaking we want you to compare and
-contrast the approaches in each of the papers.
+### Reading summaries
+
+**Reading Summaries** for the day's are to be submitted before class. These summaries are
+pretty free-form but generally speaking we want you to compare and contrast the approaches
+in each of the papers.
 
 Submit your reading summaries here: TBD
+
+### Reading assignments
+
+During each class, two students will present on the paper readings for the week.
+
+Sign up for your preferences here: TBD  
+Can be found here: TBD  
 
 ([top](#table-of-contents))
 
 ## Schedule
-
-### Reading assignments
-
-Can be found here: TBD
 
 ### Topic: Introduction to Time Series Management Systems
 
@@ -125,7 +139,6 @@ Can be found here: TBD
     * [Challenges using Prometheus at scale][6]
     * [Containing your cardinality][7]
 * **February 15**: No classes
-
 * **February 22**: Other storage strategies
     * [TimeScaleDB][8]
     * [BTrDB: Optimizing Storage System Design for Time Series Processing][9]
