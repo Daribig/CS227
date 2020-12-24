@@ -81,17 +81,18 @@ other measurements that you use to show whether your hypothesis was verified or 
 writing entries into persistent storage, reading and filtering these entries similar to a
 `SELECT` with a `WHERE` clause, and simple aggregations. We will benchmark your project
 using synthetic data we will make available. Details can be found
-[here][systems-project.md].
+[here][100].
 
 * **Analytics Project**: In this project, you will implement a time series
 nearest-neighbor classifier. This requires finding a distance measure like Euclidean
 Distance or DTW, a representation, or both, with which you find nearest neighbors of a
 specific timeseries. We will benchmark your project using the UCR/UEA time series
-archive. Details can be found [here][analytics-project.md].
+archive. Details can be found [here][101].
 
 ### Project Assignments
 
-Can be found here: TBD
+You can sign-up for your project [here][102]
+Final project assignments can be found [here][103]
 
 ## Readings
 
@@ -111,8 +112,8 @@ Submit your reading summaries here: TBD
 
 During each class, two students will present on the paper readings for the week.
 
-Sign up for your preferences here: TBD  
-Can be found here: TBD  
+Sign up for your presentation preference [here][104]
+Final presentation assignments can be found [here][103]
 
 ([top](#table-of-contents))
 
@@ -179,43 +180,56 @@ Can be found here: TBD
 
 ## Links
 
+[//]: # (Prometheus readings)
 [1]: https://bit.ly/37uwAUV  
 [2]: https://ganeshvernekar.com/blog/prometheus-tsdb-the-head-block/  
 [3]: https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint/  
 [4]: https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk/  
 [5]: https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index/  
 
+[//]: # (Prometheus issues)
 [6]: https://sysdig.com/blog/challenges-scale-prometheus/  
 [7]: https://www.youtube.com/watch?v=49BGvC1coG4  
 
+[//]: # (Other Storage Strategies)
 [8]: https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/  
 [9]: ./papers/btrdb.pdf  
 
+[//]: # (TSDBs at Scale)
 [10]: http://www.vldb.org/pvldb/vol13/p3181-adams.pdf  
 [11]: https://m3db.github.io/m3/m3db/architecture/  
 
+[//]: # (Analytics Databases)
 [12]: http://www.vldb.org/pvldb/vol13/p1105-lin.pdf  
 [13]: http://www.cs.utah.edu/~lifeifei/papers/timon.pdf  
 
+[//]: # (Anomaly Detection)
 [14]: http://www.vldb.org/pvldb/vol13/p1821-boniol.pdf  
 [15]: https://arxiv.org/pdf/1906.03821.pdf  
 
+[//]: # (Representation Learning)
 [16]: https://dl.acm.org/doi/pdf/10.14778/3342263.3342648  
 [17]: https://dl.acm.org/doi/pdf/10.1145/3318464.3380601  
 
+[//]: # (Metrics)
 [18]: https://www.csl.cornell.edu/~delimitrou/papers/2019.asplos.seer.pdf  
 [19]: https://arxiv.org/pdf/1709.06686.pdf  
 
+[//]: # (Traces)
 [20]: https://cacm.acm.org/magazines/2020/3/243034-pivot-tracing/fulltext  
 [21]: https://research.fb.com/wp-content/uploads/2017/10/sosp17-final14.pdf  
 
+[//]: # (Observability)
 [22]: https://dl.acm.org/doi/pdf/10.1145/3401025.3401740  
 
 
+[//]: # (Introduction)
 [23]: https://atscaleconference.com/videos/scale-2018-goku-pinterests-in-house-time-series-database/  
 [24]: https://www.youtube.com/watch?v=xwnwVeYlP8o  
 
-
-[25]: https://arxiv.org/pdf/1702.03584.pdf  
-[26]: https://arxiv.org/pdf/2010.02803.pdf  
-
+[//]: # (Projects)
+[100]: systems-project.md
+[101]: analytics-project.md
+[102]: https://forms.gle/EUphDfs9Y4AVdqjRA
+[103]: https://docs.google.com/spreadsheets/d/1AYFCVcBeGGeLPdDvrSGCuiLeKQh6m1k-OIvkrX1m1a8/edit?usp=sharing
+[104]: https://forms.gle/ZfSHsCxFwB1f59NG9
