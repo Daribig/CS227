@@ -80,13 +80,14 @@ other measurements that you use to show whether your hypothesis was verified or 
 * **Systems Project**: In this project, you will implement a TSDB in Rust. It will support
 writing entries into persistent storage, reading and filtering these entries similar to a
 `SELECT` with a `WHERE` clause, and simple aggregations. We will benchmark your project
-using synthetic data we will make available.
+using synthetic data we will make available. Details can be found
+[here][systems-project.md].
 
 * **Analytics Project**: In this project, you will implement a time series
 nearest-neighbor classifier. This requires finding a distance measure like Euclidean
 Distance or DTW, a representation, or both, with which you find nearest neighbors of a
 specific timeseries. We will benchmark your project using the UCR/UEA time series
-archive.
+archive. Details can be found [here][analytics-project.md].
 
 ### Project Assignments
 
