@@ -12,8 +12,9 @@
 Professor: Prof. Stan Zdonik  
 TA: Franco Solleza  
   
-Mondays, 15.00 - 17.20  
-Zoom Link:  Email Franco (first_last@brown.edu)  
+Mondays, 15.00 - 17.20, First class is on Monday, January 25, 2021  
+Zoom Link: [https://brown.zoom.us/j/92550023931](https://brown.zoom.us/j/92550023931)  
+Questions? Email Franco (first_last@brown.edu)  
 
 ## Table of Contents
 
