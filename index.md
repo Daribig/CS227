@@ -16,6 +16,11 @@ Mondays, 15.00 - 17.20, First class is on Monday, January 25, 2021
 Zoom Link: [https://brown.zoom.us/j/92550023931](https://brown.zoom.us/j/92550023931)  
 Questions? Email Franco (first_last@brown.edu)  
 
+## A note on override Codes
+
+If you are requesting an override code, please do so on CAB. However, also email me and
+Prof. Zdonik. We'll be sending them out all at once.
+
 ## Table of Contents
 
 * [What this class is about](#what-this-class-is-about)
