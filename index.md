@@ -21,6 +21,8 @@ Questions? Email Franco (first_last@brown.edu)
 If you are requesting an override code, please do so on CAB. However, also email me and
 Prof. Zdonik. We'll be sending them out all at once.
 
+Please fill out [this form](https://forms.gle/hmEo8XNZzKG15L7J7) just to be sure we get your request covered.
+
 ## Table of Contents
 
 * [What this class is about](#what-this-class-is-about)
@@ -66,8 +68,7 @@ an overview of the landscape:
 
 ## Resrouces and Meeting
 
-If you want extra resources or to schedule a meeting, set an appointment at
-[https://bit.ly/38genHt][36]
+If you want extra resources or to schedule a meeting, email Franco!
 
 ## Projects
 
@@ -147,6 +148,7 @@ Final presentation assignments can be found [here][103]
 * **February 8**: Prometheus Issues
     * [Challenges using Prometheus at scale][6]
     * [Containing your cardinality][7]
+    * [ByteSeries : An In-Memory Time Series Database for Large-Scale Monitoring Systems][202]
 * **February 15**: No classes
 * **February 22**: Other storage strategies
     * [TimeScaleDB][8]
@@ -197,6 +199,7 @@ Final presentation assignments can be found [here][103]
 [//]: # (Prometheus issues)
 [6]: https://sysdig.com/blog/challenges-scale-prometheus/  
 [7]: https://www.youtube.com/watch?v=49BGvC1coG4  
+[202]: https://static-curis.ku.dk/portal/files/248553347/ByteSeries_v_final.pdf
 
 [//]: # (Other Storage Strategies)
 [8]: https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/  
