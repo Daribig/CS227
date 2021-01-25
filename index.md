@@ -143,7 +143,7 @@ Final presentation assignments can be found [here][103]
         * [Part 2][3]
         * [Part 3][4]
         * [Part 4][5]
-    * [Gorilla]("./papers/gorilla.pdf") - only Section 4 and Section 4.1 (pages 1818-1821)
+    * [Gorilla][201]- only Section 4 and Section 4.1 (pages 1818-1821)
 * **February 8**: Prometheus Issues
     * [Challenges using Prometheus at scale][6]
     * [Containing your cardinality][7]
@@ -192,6 +192,7 @@ Final presentation assignments can be found [here][103]
 [3]: https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint/  
 [4]: https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk/  
 [5]: https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index/  
+[201]: ./papers/gorilla.pdf  
 
 [//]: # (Prometheus issues)
 [6]: https://sysdig.com/blog/challenges-scale-prometheus/  
