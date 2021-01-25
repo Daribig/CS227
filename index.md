@@ -143,6 +143,7 @@ Final presentation assignments can be found [here][103]
         * [Part 2][3]
         * [Part 3][4]
         * [Part 4][5]
+    * [Gorilla]("./papers/gorilla.pdf") - only Section 4 and Section 4.1 (pages 1818-1821)
 * **February 8**: Prometheus Issues
     * [Challenges using Prometheus at scale][6]
     * [Containing your cardinality][7]
@@ -156,8 +157,8 @@ Final presentation assignments can be found [here][103]
 
 ### Topic: Time Series Analysis
 
-* **March 8**: Analytics Databases
-    * [Plato: Approximate Analytics over Compressed Time Series with Tight Deterministic Error Guarantees][12]
+* **March 8**: Distances and Databases
+    * [k-Shape: Efficient and Accurate Clustering of Time Series][12]
     * [Timon: A Timestamped Event Database for Efficient Telemetry Data Processing and Analytics][13]
 
 * **March 15**: Anomaly Detection
@@ -166,7 +167,7 @@ Final presentation assignments can be found [here][103]
 
 * **March 22**: Representation Learning
     * [GRAIL: Efficient Time-Series Representation Learning][16]
-    * [Continuously Adaptive Similarity Search][17]
+    * [Learning Representations for Time Series Clustering][17]
 
 ### Topic: Observability
 * **March 29**: Metrics
@@ -205,7 +206,7 @@ Final presentation assignments can be found [here][103]
 [11]: https://m3db.github.io/m3/m3db/architecture/  
 
 [//]: # (Analytics Databases)
-[12]: http://www.vldb.org/pvldb/vol13/p1105-lin.pdf  
+[12]: ./papers/kshape.pdf  
 [13]: http://www.cs.utah.edu/~lifeifei/papers/timon.pdf  
 
 [//]: # (Anomaly Detection)
@@ -214,7 +215,7 @@ Final presentation assignments can be found [here][103]
 
 [//]: # (Representation Learning)
 [16]: https://dl.acm.org/doi/pdf/10.14778/3342263.3342648  
-[17]: https://dl.acm.org/doi/pdf/10.1145/3318464.3380601  
+[17]: https://papers.nips.cc/paper/8634-learning-representations-for-time-series-clustering.pdf  
 
 [//]: # (Metrics)
 [18]: https://www.csl.cornell.edu/~delimitrou/papers/2019.asplos.seer.pdf  
