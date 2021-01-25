@@ -14,6 +14,7 @@ TA: Franco Solleza
   
 Mondays, 15.00 - 17.20, First class is on Monday, January 25, 2021  
 Zoom Link: [https://brown.zoom.us/j/92550023931](https://brown.zoom.us/j/92550023931)  
+Piazza: [piazza.com/brown/spring2021/csci2270](piazza.com/brown/spring2021/csci2270)  
 Questions? Email Franco (first_last@brown.edu)  
 
 ## A note on override Codes
@@ -134,6 +135,7 @@ Final presentation assignments can be found [here][103]
     * Some helpful material to whet your appetite:
         * [Goku: Pinterest’s in-house time-series database (Video)][23]
         * [Spark ITS: Indexing for Large Scale Time Series Data on Apache Spark][24]
+    * [Presentation][301]
 
 ### Topic: Time Series Data and Storage
 
@@ -144,11 +146,11 @@ Final presentation assignments can be found [here][103]
         * [Part 2][3]
         * [Part 3][4]
         * [Part 4][5]
-    * [Gorilla][201]- only Section 4 and Section 4.1 (pages 1818-1821)
+    * [Gorilla][25]- only Section 4 and Section 4.1 (pages 1818-1821)
 * **February 8**: Prometheus Issues
     * [Challenges using Prometheus at scale][6]
     * [Containing your cardinality][7]
-    * [ByteSeries : An In-Memory Time Series Database for Large-Scale Monitoring Systems][202]
+    * [ByteSeries : An In-Memory Time Series Database for Large-Scale Monitoring Systems][26]
 * **February 15**: No classes
 * **February 22**: Other storage strategies
     * [TimeScaleDB][8]
@@ -194,12 +196,10 @@ Final presentation assignments can be found [here][103]
 [3]: https://ganeshvernekar.com/blog/prometheus-tsdb-wal-and-checkpoint/  
 [4]: https://ganeshvernekar.com/blog/prometheus-tsdb-mmapping-head-chunks-from-disk/  
 [5]: https://ganeshvernekar.com/blog/prometheus-tsdb-persistent-block-and-its-index/  
-[201]: ./papers/gorilla.pdf  
 
 [//]: # (Prometheus issues)
 [6]: https://sysdig.com/blog/challenges-scale-prometheus/  
 [7]: https://www.youtube.com/watch?v=49BGvC1coG4  
-[202]: https://static-curis.ku.dk/portal/files/248553347/ByteSeries_v_final.pdf
 
 [//]: # (Other Storage Strategies)
 [8]: https://blog.timescale.com/blog/time-series-data-why-and-how-to-use-a-relational-database-instead-of-nosql-d0cd6975e87c/  
@@ -237,6 +237,9 @@ Final presentation assignments can be found [here][103]
 [23]: https://atscaleconference.com/videos/scale-2018-goku-pinterests-in-house-time-series-database/  
 [24]: https://www.youtube.com/watch?v=xwnwVeYlP8o  
 
+[25]: ./papers/gorilla.pdf  
+[26]: https://static-curis.ku.dk/portal/files/248553347/ByteSeries_v_final.pdf
+
 [//]: # (Projects)
 [100]: systems-project.md
 [101]: analytics-project.md
@@ -246,3 +249,6 @@ Final presentation assignments can be found [here][103]
 
 [//]: # (Reading summary submission form)
 [200]: https://forms.gle/ssmYzkVgEqhFkcRK6
+
+[//]: # (Presentations)
+[301]: ./presentations/class1.pdf
