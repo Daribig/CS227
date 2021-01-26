@@ -14,7 +14,7 @@ TA: Franco Solleza
   
 Mondays, 15.00 - 17.20, First class is on Monday, January 25, 2021  
 Zoom Link: [https://brown.zoom.us/j/92550023931](https://brown.zoom.us/j/92550023931)  
-Piazza: [piazza.com/brown/spring2021/csci2270](piazza.com/brown/spring2021/csci2270)  
+Piazza: [piazza.com/brown/spring2021/csci2270](https://piazza.com/class/kkd71md0wro5nm)  
 Questions? Email Franco (first_last@brown.edu)  
 
 ## A note on override Codes
@@ -133,7 +133,7 @@ Final presentation assignments can be found [here][103]
     * Introductions to the class logistics
     * An overview of timeseries databases and workloads
     * Some helpful material to whet your appetite:
-        * [Goku: Pinterest’s in-house time-series database (Video)][23]
+        * [How and Why Prometheus' New Storage Engine Pushes the Limits of Time Series Databases][23]
         * [Spark ITS: Indexing for Large Scale Time Series Data on Apache Spark][24]
     * [Presentation][301]
 
@@ -207,7 +207,7 @@ Final presentation assignments can be found [here][103]
 
 [//]: # (TSDBs at Scale)
 [10]: http://www.vldb.org/pvldb/vol13/p3181-adams.pdf  
-[11]: https://m3db.github.io/m3/m3db/architecture/  
+[11]: https://m3db.io/docs/m3db/architecture/  
 
 [//]: # (Analytics Databases)
 [12]: ./papers/kshape.pdf  
@@ -234,7 +234,7 @@ Final presentation assignments can be found [here][103]
 
 
 [//]: # (Introduction)
-[23]: https://atscaleconference.com/videos/scale-2018-goku-pinterests-in-house-time-series-database/  
+[23]: https://www.youtube.com/watch?v=C4YV-9CrawA  
 [24]: https://www.youtube.com/watch?v=xwnwVeYlP8o  
 
 [25]: ./papers/gorilla.pdf  
