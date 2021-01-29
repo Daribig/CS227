@@ -30,7 +30,24 @@ that point a user to a particular row in that table. They aren't columns in the 
 because an entry in the series could have a very different set of labels from another
 entry in the series.
 
-## Architecture
+## Code and Architecture
+
+### Repositories
+
+[https://github.com/fsolleza/timeseries-storage](https://github.com/fsolleza/timeseries-storage)
+contains the code that you will be editing. You'll need to install Rust for this to work.
+Feel free to use Rust Nightly if you need features or are using a Crate depend on features
+not available in Stable.
+
+[https://github.com/fsolleza/tsbs](https://github.com/fsolleza/tsbs) contains a fork of
+the [Time Series Benchmark Suite](https://github.com/timescale/tsbs). This version makes
+two big modifications:
+
+1. It fixes a bug in the code associated with random-walk distributions "maxing out"
+2. It adds a high-cardinality `ip-address` label, and churn to the data sources in the
+   `devops` workload.
+
+### High Level Architecture
 
 The high level architecture of the code is below.
 
@@ -39,6 +56,7 @@ TBD
 The architecture follows a client-server architecture. It uses a TCP Socket to communicate
 between clients and the server. This communication is done using `String`s. Specifically,
 operations are sent from the client to the server in JSON format.
+
 
 ### Client
 
@@ -70,7 +88,5 @@ The `select` operation takes a series name and a predicate. The predicate can be
 
 The system supports `=, <, >, <=, >=` comparisons. Predicates are combined using `And` or
 `Or`.
-
-## Where to or __not__ to edit
 
 [return home][index.md]
