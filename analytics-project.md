@@ -22,6 +22,7 @@ include two of the more recent ones:
 
 * [Learning Representations for Time Series Clustering][1]
 * [Salient Subsequence Learning for Time Series Clustering][2]
+* [RTFN: Robust Temporal Feature Network][3]
 
 We suggest you find papers that have code that you can replicate. Alot of this code uses
 TensorFlow v1. Therefore, part of your task is porting or interpretting the autoencoder
@@ -55,7 +56,9 @@ clustering here. We use Euclidean Distance because it's far cheaper than other t
 similarity measures like Dynamic Time Warping.
 
 
-[return home][index.md]
+[return home](index.md)
 
 [1]: ./papers/dtcr.pdf
 [2]: ./papers/ussl.pdf
+[3]: ./papers/rtfn.pdf
+

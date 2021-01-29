@@ -89,4 +89,4 @@ The `select` operation takes a series name and a predicate. The predicate can be
 The system supports `=, <, >, <=, >=` comparisons. Predicates are combined using `And` or
 `Or`.
 
-[return home][index.md]
+[return home](index.md)
