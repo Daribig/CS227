@@ -57,5 +57,5 @@ similarity measures like Dynamic Time Warping.
 
 [return home][index.md]
 
-[1]: "./papers/dtcr.pdf"
-[2]: "./papers/ussl.pdf"
+[1]: ./papers/dtcr.pdf
+[2]: ./papers/ussl.pdf
