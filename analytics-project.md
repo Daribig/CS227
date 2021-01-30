@@ -13,7 +13,7 @@ is called the decoder. During training, the autoencoder learns how to reconstruc
 input data. In doing so, the bottleneck generates a small matrix (or vector) that, should
 retain important information about the input. This is called the __latent space__.
 
-Image of TBD
+![Autoencoders](./assets/autoencoder.png)
 
 ## Papers
 

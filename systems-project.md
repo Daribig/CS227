@@ -51,7 +51,7 @@ two big modifications:
 
 The high level architecture of the code is below.
 
-TBD
+![System Architecture](./assets/architecture.png)
 
 The architecture follows a client-server architecture. It uses a TCP Socket to communicate
 between clients and the server. This communication is done using `String`s. Specifically,
