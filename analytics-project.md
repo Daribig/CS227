@@ -45,15 +45,29 @@ The code uses Python and TensorFlow to implement a simple autoencoder. The file
 `train_step` function that executes a single training step and backpropagates the loss.
 `Experiments.ipynb` shows how to train and run the experiments we care about.
 
+### Specific goals:
+
+*Similarity-preserving representation*: There are a few ways of measuring "similarity". In
+our case, we'll be using a distance measure of your choice (e.g. [K-Shape][4]'s SBD
+distance). For two timeseries `a` and `b` and an encoder `e`, the goal is to preserve
+SBD-based similarity s.t. `l2(e(a) - e(b)) ~ sbd(a, b)`. That is, the Euclidean distance of
+the codes of `a` and `b` approximates their SBD.
+
+*Reconstruction*: This is fairly standard fair in autoencoders. The reconstruction loss of
+of an autoencoder is `mse(a, d(e(a)))` where `d` is the decoder, `e` is the autoencoder,
+and `mse` is the mean squared error.
+
 ### Experiments
 
-*Reconstruction*: We care about whether the autoencoder can sufficiently reconstruct the
-inputs from a given code. We'll be using Euclidean Distance (L2 norm) to calculate the
-reconstruction however, this can be modified depending on your approach.
+The `Experiments.ipynb` file contains a few experiments you can start out with to evaluate
+your results. In particular, there are two experiments:
 
-*Clustering*: We care about whether the code can be clustered effectively. We use KMeans
-clustering here. We use Euclidean Distance because it's far cheaper than other timeseries
-similarity measures like Dynamic Time Warping.
+1. Reconstruction: How closely does the autoencoder reconstruct the input data compared
+   using Euclidean distance.
+2. Similarity: How closely does the code preserve similarity. In this case, the similarity
+   metric used between two timeseries is Euclidean distance. However, you should change
+   this to some better distance metric (e.g. SBD).
+
 
 
 [return home](index.md)
@@ -61,4 +75,5 @@ similarity measures like Dynamic Time Warping.
 [1]: ./papers/dtcr.pdf
 [2]: ./papers/ussl.pdf
 [3]: ./papers/rtfn.pdf
+[4]: ./papers/kshape.pdf
 
