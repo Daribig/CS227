@@ -147,6 +147,7 @@ Final presentation assignments can be found [here][103]
         * [Part 3][4]
         * [Part 4][5]
     * [Gorilla][25]- only Section 4 and Section 4.1 (pages 1818-1821)
+    * [Presentation](https://docs.google.com/presentation/d/1wfHvSxhnAsKL-PG9w0KBuTHwqO-Uw57rrdQIpk3Xkks/edit?usp=sharing)
 * **February 8**: Prometheus Issues
     * [Challenges using Prometheus at scale][6]
     * [Containing your cardinality][7]
