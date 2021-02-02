@@ -239,7 +239,7 @@ Final presentation assignments can be found [here][103]
 [24]: https://www.youtube.com/watch?v=xwnwVeYlP8o  
 
 [25]: ./papers/gorilla.pdf  
-[26]: https://static-curis.ku.dk/portal/files/248553347/ByteSeries_v_final.pdf
+[26]: https://dl.acm.org/doi/10.1145/3419111.3421289  
 
 [//]: # (Projects)
 [100]: systems-project.md
