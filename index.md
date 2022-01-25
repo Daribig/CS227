@@ -56,6 +56,8 @@ The class schedule will follow the following high level outline:
    depending on how many groups are in the class. The rest of the class will submit reading
    summaries.
 
+   [Industry and Academia](#topic-the-mix-of-industry-and-academia)
+
 2. The tools industry uses: We'll dive into the implementation details of some of the industry
    standard tools used in Observability. This means we'll be reading some code and presenting
    in-depth summaries of how these tools do what they they do.
@@ -66,6 +68,8 @@ The class schedule will follow the following high level outline:
    goals, how the system ingests, stores, and queries data. This will require significant work and
    resourcesfulness, relying on the system's code base, blog posts, and github issues/pull
    requests.
+
+   [Observability Industry Systems](#topic-observability-industry-systems)
 
 3. Abstractions for Observability: We'll discuss why the current suite of tools fail to support
    Observability effectively. We'll discuss what might be a good set of abstractions for the
