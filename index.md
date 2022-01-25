@@ -51,9 +51,21 @@ The class schedule will follow the following high level outline:
    characteristics in Observability have been well studied. We'll take a look at some of the more
    recent work in each of the data types.
 
+   **What you will do:** Each class, you will read two papers describing proposals about how to
+   handle a a particular type of data in Observability. Each group will present one or more papers
+   depending on how many groups are in the class. The rest of the class will submit reading
+   summaries.
+
 2. The tools industry uses: We'll dive into the implementation details of some of the industry
    standard tools used in Observability. This means we'll be reading some code and presenting
    in-depth summaries of how these tools do what they they do.
+
+   **What you will do:** Each class, you will read one paper describing a proposal about how to
+   handle a particular type of Observability data. Each group will also choose a system and present
+   an in-depth explanation of how the system works. The presentation should describe the system's
+   goals, how the system ingests, stores, and queries data. This will require significant work and
+   resourcesfulness, relying on the system's code base, blog posts, and github issues/pull
+   requests.
 
 3. Abstractions for Observability: We'll discuss why the current suite of tools fail to support
    Observability effectively. We'll discuss what might be a good set of abstractions for the
@@ -156,7 +168,6 @@ Final presentation assignments can be found [here][103]
 * **February 28**: The complexity of managing unstructured strings
   * [CLP: Efficient and Scalable Search on Compressed Text Logs](https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf)
   * [FishStore: Faster Ingestion with Subset Hashing](https://badrish.net/papers/fishstore-sigmod19.pdf)
-  * Extra (Not Required): [Tools and Benchmarks for Automated Log Parsing](https://arxiv.org/pdf/1811.03509.pdf)
 * **March 7**: Traces
   * [Canopy: An End-to-End Performance Tracing and Analysis System](https://research.facebook.com/publications/canopy-end-to-end-performance-tracing-at-scale/)
   * [Fay: Extensible Distributed Tracing from Kernels to Clusters](https://dl.acm.org/doi/10.1145/2382553.2382555)
@@ -170,6 +181,7 @@ Final presentation assignments can be found [here][103]
 * **March 21**: Logs
   * Indexing with Lucene: **Links TBD**
   * Forwarding and Aggregating with FluentD: **Links TBD**
+  * [Tools and Benchmarks for Automated Log Parsing](https://arxiv.org/pdf/1811.03509.pdf)
 * **March 28**: No Class - Spring Break
 * **April 4**: Traces
   * Jaeger: **Links TBD**
