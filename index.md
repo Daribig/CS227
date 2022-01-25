@@ -128,13 +128,9 @@ The schedule below follows the readings for every week. Although these readings 
 specifics we want to cover during the class, feel free to read more material directly
 related to but not included in the readings.
 
-### Reading summaries
-
 **Reading Summaries** for the day's are to be submitted before class. These summaries are
 pretty free-form but generally speaking we want you to compare and contrast the approaches
 in each of the papers.
-
-Submit your summaries [here][200]
 
 ### Reading assignments
 
@@ -166,31 +162,32 @@ Final presentation assignments can be found [here][103]
 ### Topic: The mix of industry and academia
 
 * **February 14**: Metrics at Scale
-  * [Monarch: Google’s Planet-Scale In-Memory Time Series Database](http://www.vldb.org/pvldb/vol13/p3181-adams.pdf)
-  * [ByteSeries: an in-memory time series database for large-scale monitoring systems](https://dl.acm.org/doi/10.1145/3419111.3421289)
+  * [Monarch: Google’s Planet-Scale In-Memory Time Series Database](http://www.vldb.org/pvldb/vol13/p3181-adams.pdf) ([Summary Submission](https://forms.gle/o4giqdRVDrZzn9JCA))
+  * [ByteSeries: an in-memory time series database for large-scale monitoring systems](https://dl.acm.org/doi/10.1145/3419111.3421289) ([Summary Submission](https://forms.gle/cDUuXuELpXa5U89V9))
+
 * **February 21**: No Class - President's Day
 * **February 28**: The complexity of managing unstructured strings
-  * [CLP: Efficient and Scalable Search on Compressed Text Logs](https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf)
-  * [FishStore: Faster Ingestion with Subset Hashing](https://badrish.net/papers/fishstore-sigmod19.pdf)
+  * [CLP: Efficient and Scalable Search on Compressed Text Logs](https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf) ([Summary Submission](https://forms.gle/eF9gsHcgap3Hxdua9))
+  * [FishStore: Faster Ingestion with Subset Hashing](https://badrish.net/papers/fishstore-sigmod19.pdf) ([Summary Submission](https://forms.gle/895qCFf3eBwJhXTS6))
 * **March 7**: Traces
-  * [Canopy: An End-to-End Performance Tracing and Analysis System](https://research.facebook.com/publications/canopy-end-to-end-performance-tracing-at-scale/)
-  * [Fay: Extensible Distributed Tracing from Kernels to Clusters](https://dl.acm.org/doi/10.1145/2382553.2382555)
+  * [Canopy: An End-to-End Performance Tracing and Analysis System](https://research.facebook.com/publications/canopy-end-to-end-performance-tracing-at-scale/) ([Summary Submission](https://forms.gle/RYR22pEwjYpaorv36))
+  * [Fay: Extensible Distributed Tracing from Kernels to Clusters](https://dl.acm.org/doi/10.1145/2382553.2382555) ([Summary Submission](https://forms.gle/eTC1U9TKXAecoDmf9))
 
 ### Topic: Observability Industry Systems
 
 * **March 14**: Metrics
   * Prometheus: **Links TBD**
   * VictoriaMetrics: **Links TBD**
-  * [Heracles: An Efficient Storage Model and Data Flushing for Performance Monitoring Timeseries](https://www.vldb.org/pvldb/vol14/p1080-wang.pdf)
+  * [Heracles: An Efficient Storage Model and Data Flushing for Performance Monitoring Timeseries](https://www.vldb.org/pvldb/vol14/p1080-wang.pdf) ([Summary Submission](https://forms.gle/dcQyTFZ6sdiEf95J6))
 * **March 21**: Logs
   * Indexing with Lucene: **Links TBD**
   * Forwarding and Aggregating with FluentD: **Links TBD**
-  * [Tools and Benchmarks for Automated Log Parsing](https://arxiv.org/pdf/1811.03509.pdf)
+  * [Tools and Benchmarks for Automated Log Parsing](https://arxiv.org/pdf/1811.03509.pdf) ([Summary Submission](https://forms.gle/mKZoJKQhr9dG8bS7A))
 * **March 28**: No Class - Spring Break
 * **April 4**: Traces
   * Jaeger: **Links TBD**
   * Tempo: **Links TBD**
-  * Dapper: [paper](https://research.google/pubs/pub36356/)
+  * [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google/pubs/pub36356/) ([Summary Submission](https://forms.gle/rHEK1wBLx5i35mGq8))
 
 ### Topic: Putting it all together
 * **April 11**
