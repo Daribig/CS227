@@ -136,86 +136,51 @@ Final presentation assignments can be found [here][103]
 ### Topic: Introduction to Time Series Management Systems
 
 * **January 31, 2022**:
-    * Introductions to the class logistics
-    * An overview of timeseries databases and workloads
-    * Observability: [https://www.youtube.com/watch?v=S_L0ohIJuF0](https://www.youtube.com/watch?v=S_L0ohIJuF0)
+  * Introductions to the class logistics
+  * A good summary of observability and its data: [video](https://www.youtube.com/watch?v=_OXYCzwFd1Y)
+  * Context propagation: [video](https://www.youtube.com/watch?v=gviWKCXwyvY)
+  * Observability (our very early take): [paper](https://people.csail.mit.edu/tatbul/publications/sigmod_record20.pdf)
 
-### Topic: Observability Data Types
+* **February 7**: A Kubernetes Run-Down (A way to force Franco to know what he's talking about)
+  * Kubernetes: [video](https://www.youtube.com/watch?v=ZuIQurh_kDk)
+  * API Server: [video](https://www.youtube.com/watch?v=ryeINNfVOi8)
+  * Operators: [video](https://www.youtube.com/watch?v=i9V4oCa5f9I)
+  * Service Mesh: [video](https://www.youtube.com/watch?v=6zDrLvpfCK4)
 
-**TBD**
+### Topic: The mix of industry and academia
 
-* **February 7**: Metrics
-* **February 14**: Logs
-* **February 21**: President's Day
-* **February 28**: Traces
-
-<!--
-    * [Implementing Prometheus][1]
-    * Prometheus details:
-        * [Part 1][2]
-        * [Part 2][3]
-        * [Part 3][4]
-        * [Part 4][5]
-    * [Gorilla][25]- only Section 4 and Section 4.1 (pages 1818-1821)
-    * [Presentation](https://docs.google.com/presentation/d/1wfHvSxhnAsKL-PG9w0KBuTHwqO-Uw57rrdQIpk3Xkks/edit?usp=sharing)
-* **February 8**: Prometheus Issues
-    * [Challenges using Prometheus at scale][6]
-    * [Containing your cardinality][7]
-    * [ByteSeries : An In-Memory Time Series Database for Large-Scale Monitoring Systems][26]
-* **February 15**: No classes
-* **February 22**: Other storage strategies
-    * [TimeScaleDB][8]
-    * [BTrDB: Optimizing Storage System Design for Time Series Processing][9]
-* **March 1**: TSDBs at scale
-    * [Google Monarch][10]
-    * [M3 Architecture - From "Overview" to "Caching"][11]
--->
+* **February 14**: Metrics at Scale
+  * [Monarch: Google’s Planet-Scale In-Memory Time Series Database](http://www.vldb.org/pvldb/vol13/p3181-adams.pdf)
+  * [ByteSeries: an in-memory time series database for large-scale monitoring systems](https://dl.acm.org/doi/10.1145/3419111.3421289)
+* **February 21**: No Class - President's Day
+* **February 28**: The complexity of managing unstructured strings
+  * [CLP: Efficient and Scalable Search on Compressed Text Logs](https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf)
+  * [FishStore: Faster Ingestion with Subset Hashing](https://badrish.net/papers/fishstore-sigmod19.pdf)
+  * Extra (Not Required): [Tools and Benchmarks for Automated Log Parsing](https://arxiv.org/pdf/1811.03509.pdf)
+* **March 7**: Traces
+  * [Canopy: An End-to-End Performance Tracing and Analysis System](https://research.facebook.com/publications/canopy-end-to-end-performance-tracing-at-scale/)
+  * [Fay: Extensible Distributed Tracing from Kernels to Clusters](https://dl.acm.org/doi/10.1145/2382553.2382555)
 
 ### Topic: Observability Industry Systems
 
-**TBD**
-
-* **March 7**: Metrics
-* **March 14**: Logs
-* **March 21**: Traces
-* **March 28**: Spring Break
-
-<!--
-* **March 8**: Distances and Databases
-    * [k-Shape: Efficient and Accurate Clustering of Time Series][12]
-    * [Timon: A Timestamped Event Database for Efficient Telemetry Data Processing and Analytics][13]
-
-* **March 15**: Anomaly Detection
-    * [Series2Graph: Graph-based Subsequence Anomaly Detection for Time Series][14]
-    * [Time-Series Anomaly Detection Service at Microsoft][15]
-
-* **March 22**: Representation Learning
-    * [GRAIL: Efficient Time-Series Representation Learning][16]
-    * [Learning Representations for Time Series Clustering][17]
-
-### Topic: Observability
-* **March 29**: Metrics
-    * [Seer: Leveraging Big Data to Navigate the Complexity of Performance Debugging in Cloud Microservices][18]
-    * [Sieve: Sieve: Actionable Insights from Monitored Metrics in Microservices][19]
-* **April 5**: Traces
-    * [Pivot Tracing: Dynamic Causal Monitoring for Distributed Systems][20]
-    * [Canopy: An End-to-End Performance Tracing And Analysis System][21]
-* **April 12**: Observability
-    * [The Kaiju Project: Enabling Event-Driven Observability][22]
--->
+* **March 14**: Metrics
+  * Prometheus: **Links TBD**
+  * VictoriaMetrics: **Links TBD**
+  * [Heracles: An Efficient Storage Model and Data Flushing for Performance Monitoring Timeseries](https://www.vldb.org/pvldb/vol14/p1080-wang.pdf)
+* **March 21**: Logs
+  * Indexing with Lucene: **Links TBD**
+  * Forwarding and Aggregating with FluentD: **Links TBD**
+* **March 28**: No Class - Spring Break
+* **April 4**: Traces
+  * Jaeger: **Links TBD**
+  * Tempo: **Links TBD**
+  * Dapper: [paper](https://research.google/pubs/pub36356/)
 
 ### Topic: Putting it all together
-
-**TBD**
-
-* **April 4**
 * **April 11**
 * **April 18**
 
 ## Topic: Project Presentations
-
-**TBD**
-
 * **April 25**: TBD
 * **May 2**: TBD
 
