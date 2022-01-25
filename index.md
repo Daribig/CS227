@@ -1,4 +1,4 @@
-# CS227: The Daily Petabyte: Managing Cloud-Native Systems Through Observability
+# CS227 2022 The Daily Petabyte: Managing Cloud-Native Systems Through Observability
 Professor: Prof. Stan Zdonik  
 TA: Franco Solleza  
   
@@ -25,10 +25,10 @@ Please fill out [this form](https://forms.gle/hmEo8XNZzKG15L7J7) just to be sure
     * [Reading Summaries](#reading-summaries)
     * [Reading Assignments](#reading-assignments)
 * [Schedule](#schedule)
-    * [Introduction to Time Series Management Systems](#topic-introduction-to-time-series-management-systems)
-    * [Time Series Data and Storage](#topic-time-series-data-and-storage)
-    * [Time Series Similarity Search](#topic-time-series-similarity-search)
-    * [Observability](#observability)
+    * [Introduction to Observability and Container Orchestration with Kubernetes](#topic-introduction-to-observability-and-container-orchestration-with-kubernetes)
+    * [Industry and Academia](#topic-the-mix-of-industry-and-academia)
+    * [Observability Industry Systems](#topic-observability-industry-systems)
+    * [Putting It All Together](#topic-putting-it-all-together)
     * [Projects Presentations](#topic-projects-presentations)
 
 ## What this class is about
@@ -133,7 +133,7 @@ Final presentation assignments can be found [here][103]
 
 ## Schedule
 
-### Topic: Introduction to Time Series Management Systems
+### Topic: Introduction to Observability and Container Orchestration with Kubernetes
 
 * **January 31, 2022**:
   * Introductions to the class logistics
