@@ -103,7 +103,19 @@ other measurements that you use to show whether your hypothesis was verified or 
 
 ### Project options
 
-**TBD**
+* **Distributed Metadata Index**: In this project, you will implement a distributed metadata index.
+  The metadata to be indexed is a set of key-value pairs. The key is a string in the form
+  "some_key=some_value" and the set of values are the kubernetes nodes where this metadata exists.
+  The index must support regular expression searches. For example, a search for "lab*=cit_*" should
+  match "lab_1=cit_2" and "lab_foo=cit_sunlab" and should return the list of qualifying key-value
+  pairs. The index should be durable in the sense that it must provide guarantees similar to a
+  distributed hash table like [EtcD](https://www.ibm.com/cloud/learn/etcd) which is built on the
+  Raft consensus algorithm.
+
+  As a start, assume that the values are simply integers. You might be able to use the EtcD
+  instance used by Kubernetes as opposed to deploying a separate DHT.
+
+* **TBD**
 
 <!---
 
