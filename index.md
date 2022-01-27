@@ -48,12 +48,12 @@ some slow down in response time, engineers would look through these data to get 
 symptom, identify the root cause, and resolve the issue. This process of observing and managing
 system state is called Observability.
 
-<img alt="Microservices" src="assets/deathstar.png">
+<img alt="Microservices" src="assets/deathstar.png" align="middle" height=350>
 
 Observability is fundamentally a data management problem: how to generate, collect, ingest, store,
 and query vast amounts of heterogeneous data. As an example, the table below shows that on any given day, Slack maintains more than a petabyte of data and  generates nearly half a petabyte per day.
 
-<img alt="Melt" src="assets/melt.png">
+<img alt="Melt" src="assets/melt.png" align="middle">
 
 In this class, we'll take a look at Observability and the current challenges in Observability.
 We'll take a look at Observability as a data management workload and the tools to support this
