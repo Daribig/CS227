@@ -42,7 +42,7 @@ Please fill out [this form](https://forms.gle/hmEo8XNZzKG15L7J7) just to be sure
 ## What this class is about
 
 <p style="text-align: center;">
-<img alt="Microservices" src="assets/deathstar.png" align="middle" height=350>
+<img alt="Microservices" src="assets/deathstar.png" height=350>
 </p>
 
 Modern software systems are complex and are frequently broken into many component microservices.
