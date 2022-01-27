@@ -48,6 +48,13 @@ some slow down in response time, engineers would look through these data to get 
 symptom, identify the root cause, and resolve the issue. This process of observing and managing
 system state is called Observability.
 
+[Microservices]("assets/deathstar.png")
+
+Observability is fundamentally a data management problem: how to generate, collect, ingest, store,
+and query vast amounts of heterogeneous data. As an example, the table below shows that on any given day, Slack maintains more than a petabyte of data and  generates nearly half a petabyte per day.
+
+[Melt]("assets/melt.png")
+
 In this class, we'll take a look at Observability and the current challenges in Observability.
 We'll take a look at Observability as a data management workload and the tools to support this
 workload that are used in industry and proposed by academia. We'll also discuss what abstractions
@@ -89,6 +96,16 @@ The class schedule will follow the following high level outline:
 
 If you want extra resources or to schedule a meeting, email Franco!
 
+## Readings
+
+In the first part of the class, each of the assigned papers will be presented by a group of two to
+three students. Except for the paper you will be presenting, you will submit a reading summary
+to help you process the paper. Reading summaries for the day are to be submitted on **Saturday**
+before the class.
+
+As a presenter, you will present in-depth about the paper for 40 minutes. Franco will send the
+summaries on Sunday morning so that you can incorporate these comments for the Monday presentation.
+
 ## Projects
 
 You'll also be working on projects that involve modern or even novel techniques
@@ -115,7 +132,12 @@ other measurements that you use to show whether your hypothesis was verified or 
   As a start, assume that the values are simply integers. You might be able to use the EtcD
   instance used by Kubernetes as opposed to deploying a separate DHT.
 
-* **TBD**
+* **Historical Consumer**: In this project, you will consume data from a queue and index these data
+  as quickly as possible. Indexing comes in two forms: first, indexing the time stamps and indexing
+  the contents. **More detail here**
+
+* **Distributed WAL and Recovery**: In this project, you will develop a distributed WAL mechanism for telemetry
+  data. **More detail here**
 
 <!---
 
@@ -141,20 +163,6 @@ archive. Details can be found [here][101].
 You can sign-up for your project [here][102]  
 Final project assignments can be found [here][103]  
 -->
-
-## Readings
-
-The schedule below follows the readings for every week. Although these readings are the
-specifics we want to cover during the class, feel free to read more material directly
-related to but not included in the readings.
-
-**Reading Summaries** for the day's are to be submitted before class. These summaries are
-pretty free-form but generally speaking we want you to compare and contrast the approaches
-in each of the papers.
-
-### Reading assignments
-
-During each class, two students will present on the paper readings for the week.
 
 <!--
 Sign up for your presentation preference [here][104]  
@@ -209,7 +217,7 @@ Final presentation assignments can be found [here][103]
   * Tempo: **Links TBD**
   * [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google/pubs/pub36356/) ([Summary Submission](https://forms.gle/rHEK1wBLx5i35mGq8))
 
-### Topic: Putting it all together
+### Topic: Putting it all together - Current state of the art? What's the correct abstraction?
 * **April 11**
 * **April 18**
 
