@@ -3,10 +3,14 @@ Professor: Prof. Stan Zdonik
 TA: Franco Solleza  
   
 Mondays, 15.00 - 17.30, First class is on Monday, January 31, 2022  
+
 Room: CIT 316
+
 Zoom Link: [https://brown.zoom.us/j/92550023931](https://brown.zoom.us/j/92550023931)  
-Piazza: [piazza.com/brown/spring2021/csci2270](piazza.com/brown/spring2022/csci2270)  
-Questions? Email Franco (first_last@brown.edu)  
+
+Slack: [cs22702022.slack.com](cs22702022.slack.com)  
+
+Questions? Send Franco a message on Slack!
 
 ## A note on Zoom / In-Person
 
