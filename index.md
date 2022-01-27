@@ -41,9 +41,7 @@ Please fill out [this form](https://forms.gle/hmEo8XNZzKG15L7J7) just to be sure
 
 ## What this class is about
 
-<p style="text-align: center;">
 <img alt="Microservices" src="assets/deathstar.png" height=350>
-</p>
 
 Modern software systems are complex and are frequently broken into many component microservices.
 Managing these microservices requires visibility into the system state using massive amounts of
@@ -95,19 +93,32 @@ The class schedule will follow the following high level outline:
 
 ([top](#table-of-contents))
 
-## Resrouces and Meeting
+## Groups, Resrouces, and Meeting
 
 If you want extra resources or to schedule a meeting, email Franco!
 
+### A word on groups
+
+You will be forming groups for two presentations and a class project. Although these groups don't
+have to be the same, it helps greatly if you form a single cohesive group for the entire semester.
+It also helps with Franco's sanity 😅.
+
 ## Readings
 
-In the first part of the class, each of the assigned papers will be presented by a group of two to
-three students. Except for the paper you will be presenting, you will submit a reading summary
-to help you process the paper. Reading summaries for the day are to be submitted on **Saturday**
-before the class.
+In the first part of the class ([Industry and Academia](#topic-the-mix-of-industry-and-academia)),
+each of the assigned papers will be presented by a group of two to three students. Except for the
+paper you will be presenting, you will submit a reading summary to help you process the paper.
+Reading summaries for the day are to be submitted on **Saturday** before the class.
 
 As a presenter, you will present in-depth about the paper for 40 minutes. Franco will send the
 summaries on Sunday morning so that you can incorporate these comments for the Monday presentation.
+
+In the second part of the class ([Observability Industry
+Systems](#topic-observability-industry-systems)), each of the assigned systems will be presented by
+a group of two to three students. The non-presenting students will read the assigned paper and
+submit a reading summary as described above. We **highly recommend** that you start work on this
+presentation about three weeks to a month prior. Digging into these systems is non-trivial and
+could not be done in a week.
 
 ## Projects
 
@@ -207,17 +218,29 @@ Final presentation assignments can be found [here][103]
 ### Topic: Observability Industry Systems
 
 * **March 14**: Metrics
-  * Prometheus: **Links TBD**
-  * VictoriaMetrics: **Links TBD**
+  * Prometheus:
+    * [Prometheus Internals](https://github.com/prometheus/prometheus/blob/main/documentation/internal_architecture.md)
+    * [Prometheus Ecosystem Architecture](https://scoutapm.com/blog/prometheus-architecture)
+  * VictoriaMetrics:
+    * [Summary of VictoriaMetrics](https://faun.pub/victoriametrics-creating-the-best-remote-storage-for-prometheus-5d92d66787ac)
+    * [Some VictoriaMetrics Storage code](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/lib/storage/storage.go)
   * [Heracles: An Efficient Storage Model and Data Flushing for Performance Monitoring Timeseries](https://www.vldb.org/pvldb/vol14/p1080-wang.pdf) ([Summary Submission](https://forms.gle/dcQyTFZ6sdiEf95J6))
 * **March 21**: Logs
-  * Indexing with Lucene: **Links TBD**
-  * Forwarding and Aggregating with FluentD: **Links TBD**
+  * Indexing with Lucene:
+    * [Lucene Walkthrough Video](https://www.youtube.com/watch?v=T5RmMNDR5XI)
+    * [Lucene core overview](https://github.com/apache/lucene/blob/main/lucene/core/src/java/overview.html)
+  * Forwarding and Aggregating with FluentBit:
+    * [FluentBit Developer Guide](https://github.com/fluent/fluent-bit/blob/master/DEVELOPER_GUIDE.md)
+    * TBD
   * [Tools and Benchmarks for Automated Log Parsing](https://arxiv.org/pdf/1811.03509.pdf) ([Summary Submission](https://forms.gle/mKZoJKQhr9dG8bS7A))
 * **March 28**: No Class - Spring Break
 * **April 4**: Traces
-  * Jaeger: **Links TBD**
-  * Tempo: **Links TBD**
+  * Jaeger:
+    * [Project overview](https://github.com/jaegertracing/jaeger/blob/main/CONTRIBUTING.md)
+    * [In-Memory storage](https://github.com/jaegertracing/jaeger/tree/main/plugin/storage)
+  * Tempo:
+    * [Project overview](https://github.com/grafana/tempo/blob/main/CONTRIBUTING.md)
+    * [TempoDB](https://github.com/grafana/tempo/blob/main/tempodb/tempodb.go)
   * [Dapper, a Large-Scale Distributed Systems Tracing Infrastructure](https://research.google/pubs/pub36356/) ([Summary Submission](https://forms.gle/rHEK1wBLx5i35mGq8))
 
 ### Topic: Putting it all together - Current state of the art? What's the correct abstraction?
