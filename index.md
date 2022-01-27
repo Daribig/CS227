@@ -217,6 +217,9 @@ Final presentation assignments can be found [here][103]
 
 ### Topic: Observability Industry Systems
 
+**Note:** The links provided below are only to get you started with where you _might_ want to look
+at the code. It's up to you to find the resources to piece the detailed picture together!
+
 * **March 14**: Metrics
   * Prometheus:
     * [Prometheus Internals](https://github.com/prometheus/prometheus/blob/main/documentation/internal_architecture.md)
