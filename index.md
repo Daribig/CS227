@@ -147,15 +147,23 @@ other measurements that you use to show whether your hypothesis was verified or 
   distributed hash table like [EtcD](https://www.ibm.com/cloud/learn/etcd) which is built on the
   Raft consensus algorithm.
 
-  As a start, assume that the values are simply integers. You might be able to use the EtcD
-  instance used by Kubernetes as opposed to deploying a separate DHT.
-
-* **Historical Consumer**: In this project, you will consume data from a queue and index these data
+* **Telemetry Indexer**: In this project, you will consume data from a queue and index these data
   as quickly as possible. Indexing comes in two forms: first, indexing the time stamps and indexing
-  the contents. **More detail here**
+  the contents. The data comes from a system we are developing called Mach. Data will arrive as
+  compressed bytes from various sources and represent different types of data: metrics, logs,
+  traces. The project requires you to unpack these bytes (we will provide a decompression
+  protocol) and build an index that supports filtering and other operations on these data.
+  The design and implementation of a good indexer and indexing structure depends on the workload
+  and query patterns.
 
-* **Distributed WAL and Recovery**: In this project, you will develop a distributed WAL mechanism for telemetry
-  data. **More detail here**
+* **Distributed WAL and Recovery**: In this project, you will develop a distributed write ahead
+  logging (WAL) mechanism for telemetry data. A WAL is the first step in making sure that data are
+  durable, however, WALs have typically caused write degradation because of costs like `fsync`ing
+  data. The scenario is quite different in distributed and cloud-native environments where
+  durability does not come from writing to stable storage - instead it comes from replication.
+  Several solutions already exist (e.g. Kafka) but there have been no extensive evaluations on
+  whether using such a WAL significantly degrades write throughput or how to fit such a WAL in a
+  telemetry system.
 
 <!---
 
@@ -238,7 +246,7 @@ at the code. It's up to you to find the resources to piece the detailed picture 
     * [Lucene core overview](https://github.com/apache/lucene/blob/main/lucene/core/src/java/overview.html)
   * Forwarding and Aggregating with FluentBit:
     * [FluentBit Developer Guide](https://github.com/fluent/fluent-bit/blob/master/DEVELOPER_GUIDE.md)
-    * TBD
+    * [FluentBit Buffering and Storage](https://docs.fluentbit.io/manual/administration/buffering-and-storage)
   * [Tools and Benchmarks for Automated Log Parsing](https://arxiv.org/pdf/1811.03509.pdf) ([Summary Submission](https://forms.gle/mKZoJKQhr9dG8bS7A))
 * **March 28**: No Class - Spring Break
 * **April 4**: Traces
