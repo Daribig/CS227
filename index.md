@@ -8,7 +8,7 @@ Room: CIT 316
 
 Zoom Link: [https://brown.zoom.us/j/92550023931](https://brown.zoom.us/j/92550023931)  
 
-Slack: [cs22702022.slack.com](cs22702022.slack.com)  
+Slack: [cs22702022.slack.com](https://cs22702022.slack.com)  
 
 Questions? Send Franco a message on Slack!
 
