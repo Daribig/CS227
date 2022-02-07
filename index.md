@@ -32,10 +32,8 @@ Please fill out [this form](https://forms.gle/hmEo8XNZzKG15L7J7) just to be sure
 * [Projects](#projects)
     * [Project Requirements](#project-requirements)
     * [Project Options](#project-options)
-    * [Project Assignments](#project-assignments)
 * [Readings](#readings)
     * [Reading Summaries](#reading-summaries)
-    * [Reading Assignments](#reading-assignments)
 * [Schedule](#schedule)
     * [Introduction to Observability and Container Orchestration with Kubernetes](#topic-introduction-to-observability-and-container-orchestration-with-kubernetes)
     * [Industry and Academia](#topic-the-mix-of-industry-and-academia)
@@ -181,10 +179,6 @@ archive. Details can be found [here][101].
 
 -->
 
-### Project Assignments
-
-**TBD**
-
 <!---
 You can sign-up for your project [here][102]  
 Final project assignments can be found [here][103]  
@@ -194,6 +188,10 @@ Final project assignments can be found [here][103]
 Sign up for your presentation preference [here][104]  
 Final presentation assignments can be found [here][103]  
 -->
+
+## Group Reading, Systems, and Project Assignments
+
+[Here](https://docs.google.com/spreadsheets/d/1KI_CuPzgMEkbBGhqavJ61SbLvKX_vpjc4A18_lvKk5c/edit?usp=sharing)
 
 ([top](#table-of-contents))
 
