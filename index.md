@@ -221,7 +221,7 @@ Final presentation assignments can be found [here][103]
   * [ByteSeries: an in-memory time series database for large-scale monitoring systems](https://dl.acm.org/doi/10.1145/3419111.3421289) ([Summary Submission](https://forms.gle/cDUuXuELpXa5U89V9))
 * **February 21**: No Class - President's Day
 * **February 28**: The complexity of managing unstructured strings
-  * [CLP: Efficient and Scalable Search on Compressed Text Logs](https://www.usenix.org/system/files/conference/nsdi14/nsdi14-paper-lim.pdf) ([Summary Submission](https://forms.gle/eF9gsHcgap3Hxdua9))
+  * [CLP: Efficient and Scalable Search on Compressed Text Logs](https://www.usenix.org/system/files/osdi21-rodrigues.pdf) ([Summary Submission](https://forms.gle/eF9gsHcgap3Hxdua9))
   * [FishStore: Faster Ingestion with Subset Hashing](https://badrish.net/papers/fishstore-sigmod19.pdf) ([Summary Submission](https://forms.gle/895qCFf3eBwJhXTS6))
 * **March 7**: Traces
   * [Canopy: An End-to-End Performance Tracing and Analysis System](https://research.facebook.com/publications/canopy-end-to-end-performance-tracing-at-scale/) ([Summary Submission](https://forms.gle/RYR22pEwjYpaorv36))
